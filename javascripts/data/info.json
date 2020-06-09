@@ -1,0 +1,49 @@
+[{
+  "projectTitle": "ABS-CBN Sports",
+  "jobRole": "Front End Developer",
+  "url": "projects/abscbn-sports/index.html",
+  "tools": "HTML 5, jQuery, SASS, CSS3",
+  "image": "images/portfolio-sports.jpg"
+},
+{
+  "projectTitle": "MYX VJ Search",
+  "jobRole": "Front End Developer",
+  "url": "projects/abscbn-sports/index.html",
+  "tools": "HTML 5, jQuery, SASS, CSS3",
+  "image": "images/portfolio-myx.jpg"
+},
+{
+  "projectTitle": "ONE RUN, ONE PHILIPPINES",
+  "jobRole": "Front End Developer",
+  "url": "projects/one-run/index.html",
+  "tools": "HTML 5, jQuery, SASS, CSS3",
+  "image": "images/portfolio-onerun.jpg"   
+},
+{
+  "projectTitle": "GLOBE",
+  "jobRole": "Front End Developer",
+  "url": "www.globe.com.ph",
+  "tools": "HTML 5, jQuery, SASS, CSS3",
+  "image": "images/portfolio-globe.jpg"  
+},
+{
+  "projectTitle": "Art Map Manila",
+  "jobRole": "Front End Developer",
+  "url": "projects/amm/index.html",
+  "tools": "HTML, jQuery, CSS3",
+  "image": "images/portfolio-artmapmanila.jpg"  
+},
+{
+  "projectTitle": "ABS-CBN News",
+  "jobRole": "Front End Developer",
+  "url": "projects/news/index.html",
+  "tools": "HTML, jQuery, CSS3",
+  "image": "images/portfolio-news.jpg"  
+},
+{
+  "projectTitle": "Angular Sample Site",
+  "jobRole": "Front End Developer",
+  "url": "projects/angular-sample/index.html",
+  "tools": "HTML 5, Angular, CSS3, SASS",
+  "image": "images/angular-sample/index.html"  
+}]

@@ -1,0 +1,31 @@
+@import "../lib/mixins.scss";
+
+// FONT FAMILIES // note: refer to Big Book of Font Combinations for type pairing
+$heading-font: "proxima-nova";
+$reading-font: Helvetica;
+$alternative-font: Arial;
+$clock-font: 'Lato', sans-serif;
+
+// FONT SIZE
+$text-11: 11px;
+$text-14: 14px;
+$text-16: 16px;
+$text-18: 18px;
+
+// LINKS
+$link-22: 22px;
+$link-21: 21px;
+$link-11: 11px;
+$link-14: 14px;
+
+// LINK COLOR
+$text-black: #000000;
+$text-white: #ffffff;
+$text-white-cream: #f5fffe;
+$text-blue-green: #00c3e2;
+$text-dark-green: #0f373e;
+
+// BACKGROUND COLOR
+$background-green: #0cafc9;
+$background-green-hover: #0c879b;
+$background-orange: #fe6f6c;

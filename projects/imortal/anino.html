@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Alpha Immortal</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/player.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/ecmascript">
+	
+		$(function() {
+			$("div.video-playlist ul").immortalPlaylist({addThumbs:true, autoPlay: false, holderId: 'video-playerbox'});
+		});
+	
+</script>
+<style type="text/css">
+ul#navbar .nav_anino a.nav-itemAnino
+{
+	background-image:url(img/menu/nav-hoverAnino.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 47px;
+	width: 163px;	
+	margin-top: 3px;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="mainheader">
+        <div class="left-orn"></div>
+        <div>
+            <div class="header-top">
+		        <span class="login"><a href="http://www.google.com">Sign In</a> | <a href="#">Register</a></span>	            
+            </div>
+            <div class="left-linehead"></div>
+            <div class="header-mid" align="center">
+                <img src="img/logo.png" width="727" height="193" usemap="#logo-map" />
+            </div>
+            <map name="logo-map">
+              <area shape="rect" coords="510,125,190,70" href="index.html" alt="logo" />
+            </map>             
+            <div class="right-linehead"></div>
+            <div class="header-bottom">
+            	<span class="fanpage">
+                	<a href="#">
+                    	<img src="img/sc_icon-fb.jpg" width="15" height="15" /><p>Be our fan in facebook</p>
+                	</a>    
+                </span>
+            </div>
+        </div>
+        <div class="right-orn"></div>
+    </div>
+    <!---->
+    
+    <div class="mainbody">
+        <div class="main-wrapper">
+        <!--Start Main Wrapper-->
+        
+        	<!--Menu Navigation-->
+            <div class="navmenu-bar">
+                  <ul id="navbar">
+                    <li class="nav_about">
+                        <a href="#" title="About the show" class="nav-itemAbout">
+                        	<!--<img name="menu-about" src="img/menu/nav-about.png" width="138" height="24" />-->
+                        </a>
+                        <ul class="sub-about">
+                            <li><a class="synopsis" href="synopsis.html">Synopsis</a></li>
+                            <li><a href="cast-LiaOrtega.html">Cast</a></li>
+                            <li><a href="epsode-guide.html">Episode Guide</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_anino">
+                    	<a href="anino.html" title="Anino't Panaginip" class="nav-itemAnino">
+                        	<!--<img name="menu-anino" src="img/menu/nav-anino.png" width="153" height="24" />-->
+                        </a>
+                    </li>
+                    <li class="nav_likha">
+                    	<a href="likha.html" title="Likhang Immortal" class="nav-itemLikha">
+                        	<!--<img name="menu-likha" src="img/menu/nav-likha.png" width="144" height="24" />-->
+                        </a>
+                        <ul class="sub-likha">
+                            <li><a href="characters.html">Characters</a></li>
+                            <li><a href="world.html">World</a></li>
+                            <li><a href="kwento.html">Kwentong Imortal</a></li>
+                            
+                            <li><a href="mechanics.html">Mechanics</a></li>                            
+                        </ul>                    
+                    </li>
+                    <li class="nav_games">
+                    	<a href="#" title="Games"  class="nav-itemGames">
+                        	<!--<img name="menu-games" src="img/menu/nav-games.png" width="57" height="24" />-->
+                        </a>
+                        <ul class="sub-games">
+                            <li><a href="#">Subitem One</a></li>
+                            <li><a href="#">Second Subitem</a></li>
+                            <li><a href="#">Numero Tres</a></li>
+                        </ul>                    
+                    </li>
+                    <li class="nav_extras" >
+                    	<a href="#" title="Extras" class="nav-itemsExtras">
+                        	<!--<img name="menu-extras" src="img/menu/nav-extras.png" width="62" height="24" />-->
+                        </a>                        
+                        <ul class="sub-extras">
+                            <li><a href="pangitain.html">Pangitain ni Jethro</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="store.html">Store</a></li>
+                        </ul></li>
+                  </ul>
+            </div>
+           
+			<!--End Menu Navigation-->
+
+            
+            <!--Player box container-->
+            <div class="video-container">
+            	<div id="video-playerbox"></div>
+                <div id="video-detailbox">
+                	<div style="float: left; margin: 35px 16px;">
+						<h2 class="datail-webisode">Webisode 01:</h2>
+                        <h1 class="detail-mainTitle">Lorem Ipsum Dolor Sit</h1>
+                        <p class="detail-date">March 01, 2011</p>
+                        <p class="detail-text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nibh vel lectus accumsan laoreet. Sed urna libero, vehicula eu venenatis vitae, adipiscing quis lectus. Praesent libero magna, vehicula sit amet consectetur a, pretium vel sapien.
+
+Etiam lobortis sollicitudin ipsum eget vestibulum. Phasellus id tortor lorem, id malesuada purus.
+                        
+                        </p>
+                    </div>
+                </div>
+                <div style="float: right; margin-top: 6px;">
+                  <a href="#"><img src="img/sc_twitter.jpg" width="47" height="18" /></a>
+                  <a href="#"><img src="img/sc_fb.jpg" width="60" height="18" /></a>
+                </div>                
+            </div>
+            <!--end player box container-->
+            
+            <!--Content box-->
+            <div class="content-anino">
+				<div id="comment-box">
+                	<div class="text-box">
+                    	<div>
+                            <div id="comment-name">Imortal_Fanatic_000:</div>
+                            <div id="comment-daysCount">2 days ago</div>
+                        </div>
+                        <div>
+                        	<div id="comment-text">
+                            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nibh vel lectus accumsan laoreet. Sed urna libero, vehicula eu venenatis vitae, adipiscing quis lectus. Praesent libero magna, vehicula sit amet consectetur a, pretium vel sapien.</p>
+                            </div>
+                        </div>
+                    </div>
+                	<div class="text-box">
+                    	<div>
+                            <div id="comment-name">Imortal_Fanatic_000:</div>
+                            <div id="comment-daysCount">2 days ago</div>
+                        </div>
+                        <div>
+                        	<div id="comment-text">
+                            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nibh vel lectus accumsan laoreet. Sed urna libero, vehicula eu venenatis vitae, adipiscing quis lectus. Praesent libero magna, vehicula sit amet consectetur a, pretium vel sapien.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-commentArea">
+						<div class="reviews-tablecomment">Comment:</div>
+                        <div>
+<textarea name="txt_comment" cols="" rows="" style="overflow: auto; font-family: arial; font-size: 12px; height: 52px; width: 540px;"></textarea>
+                        </div>
+                        <div align="right" style="margin-right: 18px;">
+<input name="leave comment" type="submit" />                            
+                        </div>
+                        <div style="height: 30px; float: right; margin-right: 18px; margin-top: 10px;">
+                            <div class="comment-pagination"><a href="#">1</a></div>
+                            <div class="comment-pagination"><a href="#">2</a></div>
+                            <div class="comment-pagination"><a href="#">3</a></div>
+                            <div class="comment-pagination"><a href="#">4</a></div>
+                        </div>                                                                          
+                    </div>
+                </div>
+                <div id="playlist-box">
+                	<div class="video-playlist">
+                		<h2>More Webisodes</h2>
+                        <ul>
+                            <li>
+                            	<a href="http://player.ooyala.com/player.js?v=QBBWKvY-VDc">
+                                    Webisode 00:<br />
+                                    Lorem Ipsum Dolor
+                                    Feb 26, 2011<br /><br />
+                                    Lorem ipsum dolor<br />
+                                    sit amet.
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="http://www.youtube.com/watch?v=ZXMQqLnRhRI">
+                                    Webisode 00:<br />
+                                    Lorem Ipsum Dolor<br />
+                                    Feb 26, 2011<br /><br />
+                                    Lorem ipsum dolor<br />
+                                    sit amet.                                
+                                </a>
+                              
+                            </li>
+                            <li>
+                            	<a href="http://www.youtube.com/watch?v=ZXMQqLnRhRI">
+                                    Webisode 00:<br />
+                                    Lorem Ipsum Dolor<br />
+                                    Feb 26, 2011<br /><br />
+                                    Lorem ipsum dolor<br />
+                                    sit amet.                                
+                                </a>
+                             
+                            </li>
+                        </ul>
+                    </div>                
+                </div>
+            </div>
+            <!--End content box-->
+            
+            <!--ads content-->
+            <div class="ads" style="float: left;">
+            	<div id="ads-detail" align="center">
+                	<a href="#"><img src="img/ads-angel.jpg" width="728" height="90" /></a>
+                </div>
+            </div>
+            <!--end ads content-->
+        
+        <!--End Main Wrapper-->
+        </div>
+    </div>
+    
+	<!---->
+    <div class="mainfooter">
+        <div class="footer">
+        	<div class="footerLogoIcons">
+                <div style="margin: 35px 70px; float: left;">
+                	<a href="#"><img src="img/iconlogo_abs.png" width="123" height="17" /></a>
+                </div>
+                <div style="margin: 10px 75px; float: left;">
+                	<a href="#"><img src="img/iconlogo_starrecords.png" width="54" height="62" /></a>
+                </div>
+                <div style="margin: 10px 75px; float: left;">
+                	<a href="#"><img src="img/iconlogo_absstore.png" width="58" height="62" /></a>
+                </div>
+                <div style="margin: 20px 70px; float: left;">
+                	<a href="#"><img src="img/iconlogo_tfc.png" width="139" height="46" /></a>
+                </div>
+            </div>
+            <div class="footerLinks">
+                <div id="links">
+                    <div style="margin: 0 5px; float: left;"><a href="#">Contact Us</a></div>
+                    <div style="margin: 0 5px; float: left;"><a href="#">Advertise With Us</a></div>
+                    <div style="margin: 0 5px; float: left;"><a href="#">Terms of Use</a></div>
+                    <div style="margin: 0 5px; float: left;"><a href="#">Privacy Statement</a></div>
+                </div>
+                <div id="copyright">
+                    <p>&copy; 2011 ABS-CBN Corporation. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

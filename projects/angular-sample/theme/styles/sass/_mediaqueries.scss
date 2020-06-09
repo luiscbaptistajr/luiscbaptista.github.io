@@ -1,0 +1,67 @@
+///////////////////
+// Media Queries //
+///////////////////
+
+// NOTE: Extra small devices are default styles (mobile-first)
+
+// Retina query (remove when not needed)
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+	
+}
+
+// Largest devices 1200
+@media (max-width: $screen-lg) {
+	
+}
+
+// Large devices 992
+@media (max-width: $screen-md) {
+	
+}
+
+// Medium devices 768
+@media (max-width: $screen-sm) {
+}
+
+
+// Small devices 480
+@media (max-width: $screen-xs) {
+	#content {
+		.top-image {
+			background-size: contain;
+		    background-repeat: no-repeat;
+		}
+		.content {
+			.gallery {
+				width: 100%;
+			}
+			.itemInfo {
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				flex-wrap: wrap;
+				-webkit-justify-content: flex-start;
+				-ms-flex-pack: start;
+				justify-content: flex-start;
+				-webkit-align-content: flex-start;
+				-ms-flex-line-pack: start;
+				align-content: flex-start;
+				-webkit-align-items: center;
+				-ms-flex-align: center;
+				align-items: center;
+
+				.display-phones {
+					width: percentage(480px/480px);
+				}
+			}
+		}
+	}
+}
+
+
+

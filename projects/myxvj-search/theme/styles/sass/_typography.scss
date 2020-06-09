@@ -1,0 +1,193 @@
+@import "config.scss";
+
+
+// GLOBAL
+body {
+	font-family: $reading-font, $alternative-font;
+}
+
+// HEADINGS
+h3 {font-size: 28px;font-weight:600;color:$sg-color--b;}
+h4 {font-size: 12px;}
+
+// HEADINGS IN SECTION
+section {
+	h1 {font-size: 28px;}
+	h2 {font-size: 24px;}
+	h3 {font-size: 18px;}
+	h4 {font-size: 12px;}
+
+	h1,h2,h3,h4 {margin: 0;padding:0;}
+	h1, h2{font-weight:600;}
+	h4 { font-weight: 400; }
+}
+
+// HEADINGS IN ARTICLE
+article {
+	h1 {font-size: 18px;}
+	h2 {font-size: 16px;margin:0;margin-top:0;margin-bottom:10px;}
+}
+
+// FIGURE
+figure {
+
+	h1 { font-size: 18px; }
+	h2 { font-size: 16px; }
+	h3 { font-size: 12px; }
+
+	h2,h3 {font-weight:400;}
+
+	figcaption {
+		.caption-10 {font-size: 10px;}
+		.caption-14 {font-size: 14px;}
+	}
+
+}
+
+// ANCHORS
+a {
+	text-decoration: none;
+
+	&.link-12 {font-size: 12px;}
+	&.link-14 {font-size: 14px;}
+	&.link-16 {font-size: 16px;}
+	&.link-24 {font-size: 24px;}
+
+	&.nav-link {
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	&.link-view {font-weight:400;}
+
+	&.access {
+		text-transform: uppercase;
+		color: $sg-color--c;
+	}
+
+	&.footer-link {
+		color: $sg-color--d;
+	}
+
+	&.btn-red {
+		color: $sg-color--d;
+		text-transform: uppercase;
+	}
+}
+
+a:link {
+	
+}
+
+a:hover {
+	&.nav-link { color: $sg-color--l; }
+
+	&.sub-link { 
+		background: $sg-color--l;
+		color: $sg-color--d !important;
+	}
+
+	&.link-view,&.footer-link, &.sn-link, &.access, &.btn-red {
+		text-decoration: underline;
+	}
+
+}
+
+a:active {
+	
+}
+
+a:visited {
+	
+}
+
+a:focus {
+	
+}
+
+// FORM
+input {
+	&.input-12 {font-size:12px;}
+	&.input-24 {font-size:24px;}
+}
+
+label {
+	
+}
+
+textarea {
+	
+}
+
+select {
+	
+}
+
+option {
+	
+}
+
+
+// TABLES
+table {
+	
+}
+
+td {
+	
+}
+
+
+// CONTENT
+p {
+	font-size: 18px;
+
+	&.text-el-14 {font-size: 14px;}
+	&.text-el-18 {font-size: 18px;}
+	&.text-el-24 {font-size: 24px;}
+	&.text-el-28 {font-size: 28px;}
+
+	&.reading-font {font-family: $reading-font;}
+	&.alternative-font{font-family: $alternative-font;}
+
+	&.sub-heading {color:$sg-color--b;}
+
+	&.copyright { color: $sg-color--d; }
+
+}
+
+span {
+	&.text-el-24 {font-size: 24px;}
+}
+
+li {
+	
+}
+
+dt {
+	
+}
+
+dd {
+	
+}
+
+
+// MISC CLASSES
+.class-1 {
+	
+}
+
+.class-2 {
+	
+}
+
+small {
+	font-weight: normal;
+	&.small-10 {font-size: 10px;}
+	&.small-12 {font-size: 12px;}
+	&.file-type {text-transform:uppercase;}
+}
+
+button {font-size:12px;}
+button:hover{text-decoration:underline;}

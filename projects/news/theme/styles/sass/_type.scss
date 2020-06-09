@@ -1,0 +1,269 @@
+// Global
+body {
+	font-family: $font-primary;
+}
+
+
+// Headers
+h1 {
+	margin: 0;
+
+	&.news-title {
+		font-size: 1.875em;
+		font-weight: $demi;
+		color: #252525;
+	}
+}
+
+h2 {
+	.outbrain & {
+		color: #eb1e23;
+		font-size: 1.250em;
+		font-weight: $demi;
+	}
+
+	.stream-block & {
+		color: #eb1e23;
+		font-size: 1.250em;
+		font-weight: $demi;
+	}
+}
+
+h3 {
+	.brand-news-header & {
+		span {
+			font-size: 1.000em;
+			font-weight: $demi;
+			color: #eb1e23;
+			&:first-child {
+				color: #fff;	
+			}
+			
+		}
+
+		small {
+			font-size: 0.688em;
+			font-weight: $light;
+			text-decoration: underline;
+
+			a {color: #c1c1c1;}
+		}
+	}
+}
+
+h4 {
+	&.outbrain-title {
+		color: #000;
+		font-size: 0.875em;
+		font-weight: $demi;
+	}
+
+	.brand-news-list & {
+		color: #000;
+		font-weight: $demi;
+		font-size: 0.875em;
+	}
+}
+
+h5 {
+	&.author-details {
+		color: #eb1e23;
+		font-size: 0.750em;
+		font-weight: $demi;
+	}
+}
+
+
+// Links
+a {
+	text-decoration: none;
+	&:link {
+		
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:active {
+		
+	}
+
+	&:visited {
+		
+	}
+
+	.label-title & {
+		font-size: 0.875em;
+		font-weight: $light;
+		color: #fff;
+
+	}
+
+	.article-metakey & {
+		color: #eb1e23;
+		font-size: 0.875em;
+		font-weight: $demi;
+	}
+
+	.tabs-latest &, .tabs-most & {
+		font-size: 1.000em;
+		font-weight: $demi;
+		color: #959595;
+	}
+
+	.current & {
+		color: #eb1e23;
+	}
+}
+
+
+// Inputs
+input[type=text] {
+
+}
+
+label {
+	
+}
+
+textarea {
+	
+}
+
+select {
+	
+}
+
+option {
+	
+}
+
+button {
+}
+
+// Tables
+table {
+	td {
+
+	}
+}
+
+p {
+	font-size: 1.000em;
+	font-weight: $medium;
+	color: #000;
+	line-height: 1.5;
+	&.special-qoute {
+		font-size: 30px;
+	}
+
+	&.timestamp-entry {
+		font-size: 0.750em;
+		font-weight: $demi;
+		color: #959595;
+	}
+
+	&.special-qoute {
+		color: #898989;
+		font-weight: $medium;
+		font-size: 1.875em;
+	}
+
+	&.sponsor-name {
+		color: #959595;
+		font-weight: $demi;
+		font-size: 0.750em;
+	}
+
+	&.title-sidebar {
+		color: #000000;
+		font-weight: $medium;
+		font-size: 0.875em;
+
+		&:hover {
+			color:#eb1e23;
+		}
+	}
+
+	&.timestamp-sidebar {
+		color: #959595;
+		font-weight: $medium;
+		font-size: 0.750em;
+	}
+
+	footer .holder & {
+		color: #fff;
+		font-size: 1.000em;
+		font-weight: $medium;
+	}
+
+	.special-link & {
+		color: #ed949c;
+		font-size: 1.000em;
+	}
+
+	&.stream-caption {
+		.stream-title {
+			font-size: 0.875em;
+			font-weight: $light;
+			color: #505050;
+		}	
+
+		.stream-link {
+			text-transform: uppercase;
+		    color: #fff;
+		    font-size: 0.875em;
+		    font-weight: $light;
+		}
+	}
+}
+
+nav {
+	
+}
+
+small {
+	&.media-caption {
+		font-size: 1em;
+		font-weight: $light;
+		color: #898989;
+
+		p {
+			color: #000;
+			a {
+				color: #eb1e23;
+				font-size: 0.750em;
+			}
+		}
+
+		.media-block & {
+			text-align: left;
+			line-height: 2;
+		}
+	}
+
+
+}
+
+// OUTBRAIN
+.AR_6.ob-two-rows-strip-layout .ob-widget-header {
+	color: #eb1e23 !important;
+    font-size: 1.250em !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+.AR_6.ob-two-rows-strip-layout .ob-rec-text {
+	color: #000 !important;
+    font-size: 0.875em !important;
+    font-weight: 700 !important;
+}
+
+.AR_6.ob-two-rows-strip-layout .ob-rec-source {
+	color: #959595 !important;
+	font-weight: 700 !important;
+	font-size: 0.750em !important;
+}
+
+

@@ -1,0 +1,64 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+
+  /* DEVELOPERS */
+  Front End Developer : <name>
+  Location: Quezon City, Philippines
+
+  Back End Developer : <name>
+  Location: Quezon City, Philippines
+
+  /* CREATIVES */
+  Art Director : <name>
+  Location: Quezon City, Philippines
+
+  /* STRATEGIST */
+  Strategist : <name>
+  Location: Quezon City, Philippines
+
+  /* PROJECT MANAGER */
+  Project Manager : <name>
+  Location: Quezon City, Philippines
+
+  /* QUALITY ASSURANCE */
+  Quality Assurance Specialist : <name>
+  Location: Quezon City, Philippines
+
+  /* ACCOUNT MANAGER */
+  Account Officer : <name>
+  Location: Quezon City, Philippines
+
+
+/* THANKS */
+  Digital Media Division - Operations Head : Elaine Uy
+  Location: Quezon City, Philippines
+
+  Digital Media Division - Creative Head : Bojo Torres
+  Location: Quezon City, Philippines
+
+  Digital Media Division - Project Management Head : Debbie Medina
+  Location: Quezon City, Philippines
+
+  Digital Media Division - Quality Assurance Manager : Jaja Aquino
+  Location: Quezon City, Philippines
+
+  IT - Applications Management Head : Edwin Nilooban
+  Location: Quezon City, Philippines
+
+  IT - Lead, Development : Jen Tee
+  Location: Quezon City, Philippines
+
+  IT - Lead, Front End Development : Luis Baptista
+  Location: Quezon City, Philippines
+
+  IT - Lead, Back End Development : Danilo Dizon
+  Location: Quezon City, Philippines
+
+
+/* SITE */
+  Last update: 2015/09/10
+  Standards: HTML5, CSS3, Javascript
+  Components: Modernizr, jQuery, Normalize.css, Progressive Internet Explorer, PictureFill
+  IDE: Sublime Text, Photoshop

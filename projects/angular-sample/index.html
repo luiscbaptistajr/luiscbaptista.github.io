@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<title>Betica Shop</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Luis C. Baptista Jr">
+
+	<!-- STYLES START -->
+	<link rel="stylesheet" media="screen" href="theme/styles/master.css">
+	<script type="text/javascript" src="theme/scripts/vendor/modernizr.min.js"></script>
+</head>
+<body ng-app="MobileWeb">
+
+	<!-- WRAPPER START -->
+	<!-- HEADER START -->
+	<header class="main">
+		<h1 class="logo"><a href="index.html">Betica Shop</a></h1>
+	</header>
+
+	<!-- HEADER END -->
+	<div id="content">
+		<div class="top-image"></div>
+		<!-- CONTENT START -->
+		<div class="main content" role="main" ng-controller="MainController">
+			<section class="gallery">
+				<div class="category-title"><h2>Phones</h2></div>
+				<div class="itemInfo">
+					<div class="display-phones to-clear" ng-repeat="phone in gadgetItems.items.phone">
+						<h3 class="item-name">{{ phone.product }}</h3>
+						<p class="item-description">Manufactured by <span class="manufacturer">{{ phone.manufacturer }}</span>, to be released in <span class="release-date">{{ phone.releaseDate }}</span></p>
+						<button class="item-price">{{ phone.price | currency }}</button>
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<div class="category-title"><h2>Laptops</h2></div>
+				<div class="itemInfo">
+					<div class="display-phones to-clear" ng-repeat="laptop in gadgetItems.items.laptop">
+						<h3 class="item-name">{{ laptop.product }}</h3>
+						<p class="item-description">Manufactured by <span class="manufacturer">{{ laptop.manufacturer }}</span>, to be released in <span class="release-date">{{ laptop.releaseDate }}</span></p>
+						<button class="item-price">{{ laptop.price | currency }}</button>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- CONTENT END -->
+
+	</div>
+	<!-- FOOTER START -->
+	<footer class="main">
+		<p>&copy; Copyright 2016</p>
+	</footer>
+	<!-- FOOTER END -->
+	<!-- WRAPPER END -->
+
+	<!-- SCRIPTS START -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+	<script>window.jQuery || document.write('<script src="theme/scripts/vendor/jquery.min.js"><\/script>')</script>
+	<script type="text/javascript" src="theme/scripts/app.js"></script>
+	<script type="text/javascript" src="theme/scripts/controllers/MainController.js"></script>
+	<script type="text/javascript" src="theme/scripts/services/itemInfo.js"></script>
+	<!-- SCRIPTS END -->
+
+</body>
+</html>

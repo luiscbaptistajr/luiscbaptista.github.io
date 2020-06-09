@@ -1,0 +1,293 @@
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+}
+
+body {
+	margin: 0;
+	font-family: $font-primary;
+}
+header {
+	&.uninav-default {
+		.logo {
+			margin-left: 10px;
+			a > img {
+				height: 35px;
+			}
+		}
+		&.header-sticky {
+			.logo {
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+section {
+	h2, h3, h4, p {margin: 0; padding: 0;}
+	&.bg-hero {
+		width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+		position: relative;
+		background-attachment : fixed;
+		background-position   : top center;
+		background-size       : cover;
+
+		background-repeat: no-repeat;
+		height: 600px;
+
+		.hero-logo {
+			position: absolute;
+			top: -300px;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			
+		}
+
+	}
+
+	&.mechanics {
+		position: relative;
+		top: -100px;
+		opacity: 0;
+		&.fadein {
+			-webkit-animation: fadeIn 0.65s ease forwards;
+			animation: fadeIn 0.65s ease forwards;
+			opacity: 1;
+		}
+
+		.overlay {
+			padding: 60px 0 0;
+			height: 50px;
+			margin-bottom: 150px;
+			-webkit-box-shadow: 0px -30px 27px -3px rgba(0,0,0,0.55);
+			-moz-box-shadow: 0px -30px 27px -3px rgba(0,0,0,0.55);
+			box-shadow: 0px -30px 27px -3px rgba(0,0,0,0.55);
+
+			* {
+				line-height: 1.5;
+				text-align: center;
+			}
+		}
+
+		.inner {
+			h3 {text-align: center;}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+
+				li {
+					float: left;
+					display: block;
+					padding-bottom: 20px;
+
+
+					.icon {
+						background: #09b1b1;
+					    display: inline-block;
+					    float: left;
+					    width: 50px;
+					    height: 50px;
+					    line-height: 50px;
+					    text-align: center;
+					}
+					p{padding: 0 0 0 70px}
+				}
+			}
+		}
+
+		.steps {
+			width: percentage(728px/1280px);
+		}
+
+		.lb-mechanics {
+			margin: 30px 0;
+			text-align: center;
+		}
+
+		.ads-holder {
+			position: relative;
+			top: 50px;
+		}
+	}
+
+	&.bottom-content {
+		padding: 50px 0 0;
+		height: 180px;
+		position: relative;
+
+		.back-to-top {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			text-align: center;
+		}
+	}
+}
+
+.join {
+	margin: 50px 0;
+	clear: both;
+	
+	&.join-top {
+		text-align: center;
+		position: absolute;
+		bottom: 150px;
+		left: 0;
+		right: 0;
+	}
+
+	a {
+		display: block;
+		padding: 20px 0;
+		background: #e00b89;
+		text-align: center;
+		width: 200px;
+		margin: 0 auto;
+		@include border-radius(10px);
+	}
+
+}
+
+.form {
+	.form-content {
+		width: 100%;
+		&.participants {background:#e8faff;}
+		&.companions {background:#f7f6f7;}
+		.inner {
+			width: percentage(728px/1280px);
+			// margin: 0 auto;
+			padding: 0 0 50px;
+
+			label {
+				display: inline-block;
+				width: percentage(200px/728px);
+				text-align: right;
+			}
+
+			p{text-align: center;}
+
+			h3 {
+				padding: 20px 0;
+				margin: 0;
+				text-align: center;
+			}
+		}
+		.confirmation {
+			padding: 20px 0 0;
+			text-align: center;
+		}
+		input[type="text"], input[type="email"], input[type="number"], #participant-address {
+			width: percentage(485px/728px);
+			padding: 10px;
+			border: 1px solid #000;
+		}
+		.text-area {
+			label {
+				position: relative;
+				top: -70px;
+			}
+		}
+		.width-600 {
+			width: percentage(600px/728px);
+			margin: 10px auto;
+		}
+	}
+	h4 {
+		margin: 0;
+		padding: 40px 0;
+		text-align: center;
+	}
+}
+
+.ads-holder {
+	* {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.inner {
+	width: percentage(1010px/1280px);
+	margin: 0 auto;	
+}
+
+/* Footer */
+footer { 
+	width: 100%; 
+	height: 40px;
+	position: relative; 
+	z-index: 10; 
+
+	.holder { 
+		margin: 0 auto; 
+		width: 92.1875%; 
+		padding: 0px;
+
+		p {
+			margin: 0;
+			line-height: 40px;
+		} 
+
+		.left {
+			float: left;
+		}
+
+		.right {
+			float: right;
+		}
+	}
+	
+	a {margin-left: 15px; }
+}
+
+/* LIGHTBOX */
+.lightbox {
+	position: fixed;
+	/* keeps the lightbox window in the current viewport */
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8) repeat;
+	z-index: 10;
+	display: none;
+
+	.content {
+		width: 920px;
+		margin: 0 auto;
+		background: #fff;
+		overflow-y: auto;
+		height: 90%;
+		padding: 0 20px;
+		border-top: 20px solid #fff;
+		border-bottom: 20px solid #fff;
+		position: relative;
+		top: 5%;
+	}
+
+	// &.active {
+	// 	opacity: 1;
+	// 	-webkit-transition: all .5s ease-out;
+	// 	-moz-transition: all .5s ease-out;
+	// 	-ms-transition: all .5s ease-out;
+	// 	-o-transition: all .5s ease-out;
+	// 	transition: all .5s ease-out;
+	// }
+
+}

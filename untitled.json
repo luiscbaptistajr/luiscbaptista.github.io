@@ -1,0 +1,14 @@
+[{
+  "projectTitle": "ABS-CBN Sports",
+  "jobRole": "Front End Developer",
+  "url": "projects/abscbn-sports/index.html",
+  "tools": "HTML 5, jQuery, SASS, CSS3",
+  "image": "images/portfolio-sports.jpg"
+},
+{
+  "projectTitle": "MYX VJ Search",
+  "jobRole": "Front End Developer",
+  "url": "projects/abscbn-sports/index.html",
+  "tools": "HTML 5, jQuery, SASS, CSS3",
+  "image": "images/portfolio-myx.jpg"
+}]

@@ -1,0 +1,142 @@
+/* =============================================================================
+   	Before starting development, identify all font families, TypeKit equivalents,
+   	colors, sizes, etc. Replace entries in Basic Colors and Fonts sections.
+
+   	BASIC COLORS:
+		Dark grey (text): 				#333333
+		Dark Blue (headings, links) 	#000066
+		Mid Blue (header) 				#333399
+		Light blue (top navigation) 	#CCCCFF
+		Mid grey: 						#666666
+	
+	FONTS:
+		Helvetica
+		Georgia
+   ========================================================================== */
+
+/* Global */
+body {
+	margin:0;
+	padding:0;
+	background:#fafefa;
+	font-family: "Lucida Sans", "Arial Black", "Times New Roman";
+}
+
+
+/* Headers */
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+	margin:0;
+	padding:0;
+}
+
+h4 {
+	
+}
+
+/* Primary Nav */
+
+
+/* Secondary Nav */
+
+
+/* Breadcrums */
+
+
+/* Footer Nav */
+
+
+
+/* Links */
+a {
+	
+}
+
+a:link {
+	
+}
+
+a:hover {
+	
+}
+
+a:active {
+	
+}
+
+a:visited {
+	
+}
+
+
+/* Inputs */
+input {
+	
+}
+
+label {
+	
+}
+
+textarea {
+	
+}
+
+select {
+	
+}
+
+option {
+	
+}
+
+
+/* Tables */
+table {
+	
+}
+
+td {
+	
+}
+
+
+/* Content */
+p {
+	
+}
+
+span {
+	
+}
+
+li {
+	
+}
+
+dt {
+	
+}
+
+dd {
+	
+}
+
+
+/* Special Classes */
+.class_1 {
+	
+}
+
+.class_2 {
+	
+}
+
+

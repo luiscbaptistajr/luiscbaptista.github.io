@@ -1,0 +1,712 @@
+.sprite-bg {
+	background: #999;
+}
+
+
+.icons, .menus {
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: #999;
+}
+
+.icons div, .menus div {
+	float: left;
+	margin: 12px;
+}
+
+.icons .icons-group {
+	margin: 0;
+	height: 80px;
+}
+
+.g-logo {
+	background: url(../images/sprites.png)  0 -1px;
+	width: 120px;
+	height: 37px;
+}
+
+.btn-get-plan {
+	background: url(../images/sprites.png) -300px -200px;
+	width: 171px;
+	height: 40px;
+}
+
+.btn-add-comparison {
+	background: url(../images/sprites.png) -300px -100px;
+	width: 171px;
+	height: 40px;
+}
+
+.btn-add-cart {
+	background: url(../images/sprites.png) 0 -100px;	
+	width: 123px;
+	height: 40px;
+}
+
+.btn-apply-now {
+	background: url(../images/sprites.png) 0 -150px;	
+	width: 123px;
+	height: 40px;	
+}
+
+/*.btn-blank-text {
+	background: url(../images/sprites.png) 0 -250px;	
+	width: 131px;
+	height: 31px;
+	margin: 10px 0;		
+}*/
+
+.btn-subscribe {
+	background: url(../images/sprites.png) -500px -100px;	
+	width: 123px;
+	height: 40px;	
+}
+
+.btn-learn-more {
+	background: url(../images/sprites.png) -150px -150px;	
+	width: 123px;
+	height: 40px;	
+}
+
+.btn-order-now {
+	background: url(../images/sprites.png) -500px -150px;	
+	width: 123px;
+	height: 40px;	
+}
+
+.btn-learn-how {
+	background: url(../images/sprites.png) -150px -100px;	
+	width: 123px;
+	height: 40px;	
+}
+
+.btn-clear-all {
+	background: url(../images/sprites.png) -150px -250px;	
+	width: 123px;
+	height: 40px;	
+}
+
+.btn-btn-checkout {
+	background: url(../images/sprites.png) -500px -300px;	
+	width: 123px;
+	height: 40px;	
+}
+
+.btn-continue-shopping {
+	background: url(../images/sprites.png) -450px -350px;	
+	width: 177px;
+	height: 31px;	
+}
+
+.btn-back {
+	background: url(../images/sprites.png) -450px 0px;	
+	width: 101px;
+	height: 31px;	
+}
+
+.btn-next-step {
+	background: url(../images/sprites.png) -650px -350px;	
+	width: 124px;
+	height: 31px;	
+}
+
+.btn-empty-white {
+	background: url(../images/sprites.png) -600px 0px;	
+	width: 180px;
+	height: 31px;	
+}
+
+.btn-empty-blue {
+	background: url(../images/sprites.png) -650px -100px;	
+	width: 128px;
+	height: 31px;	
+}
+
+.btn-empty-cart {
+	background: url(../images/sprites.png) -650px -50px;	
+	width: 134px;
+	height: 31px;	
+}
+
+.btn-cancel-order {
+	background: url(../images/sprites.png) -650px -150px;	
+	width: 134px;
+	height: 31px;	
+}
+
+.btn-edit-order {
+	background: url(../images/sprites.png) -650px -200px;	
+	width: 128px;
+	height: 31px;	
+}
+
+.btn-edit-address {
+	background: url(../images/sprites.png) -650px -250px;	
+	width: 132px;
+	height: 31px;	
+}
+
+.btn-pay-now {
+	background: url(../images/sprites.png) -650px -300px;	
+	width: 128px;
+	height: 31px;	
+}
+
+.menu-products-active {
+	background: url(../images/sprites.png) -100px -350px;	
+	width: 31px;
+	height: 31px;	
+}
+
+.menu-products-inactive {
+	background: url(../images/sprites.png) -100px -300px;	
+	width: 31px;
+	height: 31px;	
+}
+
+.menu-shop-active {
+	background: url(../images/sprites.png) -50px -350px;	
+	width: 31px;
+	height: 31px;	
+}
+
+
+.menu-shop-inactive {
+	background: url(../images/sprites.png) -50px -300px;	
+	width: 31px;
+	height: 31px;	
+}
+
+.menu-broadband-active {
+	background: url(../images/sprites.png) 0px -350px;	
+	width: 30px;
+	height: 31px;	
+}
+
+.menu-broadband-inactive {
+	background: url(../images/sprites.png) 0px -300px;	
+	width: 30px;
+	height: 31px;	
+}
+
+.menu-help-support-inactive {
+	background: url(../images/sprites.png) -150px -300px;	
+	width: 30px;
+	height: 31px;		
+}
+
+.menu-help-support-active {
+	background: url(../images/sprites.png) -150px -350px;	
+	width: 30px;
+	height: 31px;		
+}
+
+.menu-business-inactive {
+	background: url(../images/sprites.png) -200px -300px;	
+	width: 30px;
+	height: 31px;	
+}
+
+.menu-business-active {
+	background: url(../images/sprites.png) -200px -350px;	
+	width: 30px;
+	height: 31px;	
+}
+
+.sub-phones {
+	background: url(../images/sprites.png) -200px -600px;	
+	width: 86px;
+	height: 86px;	
+}
+.sub-postpaid {
+	background: url(../images/sprites.png) -502px -601px;	
+	width: 86px;
+	height: 86px;	
+}
+.sub-prepaid {
+	background: url(../images/sprites.png) -200px -600px;	
+	width: 84px;
+	height: 85px;	
+}
+.sub-international {
+	background: url(../images/sprites.png) -200px -700px;	
+	width: 86px;
+	height: 86px;	
+}
+.sub-mobile-net {
+	background: url(../images/sprites.png) -500px -700px;	
+	width: 86px;
+	height: 86px;	
+}
+.sub-download-apps {
+	background: url(../images/sprites.png) -300px -600px;	
+	width: 86px;
+	height: 86px;	
+}
+.sub-gchash {
+	background: url(../images/sprites.png) -400px -600px;	
+	width: 86px;
+	height: 86px;	
+}
+.sub-rewards {
+	background: url(../images/sprites.png) -300px -700px;	
+	width: 86px;
+	height: 86px;	
+}
+
+.icon-001 {
+	background: url(../images/sprites.png)  0 -400px;
+	width: 39px;
+	height: 39px;	
+}
+
+.icon-002 {
+	background: url(../images/sprites.png)  -50px -400px;
+	width: 39px;
+	height: 39px;	
+}
+
+.icon-003 {
+	background: url(../images/sprites.png)  -100px -400px;
+	width: 39px;
+	height: 39px;	
+}
+
+.icon-004 {
+	background: url(../images/sprites.png)  -150px -400px;
+	width: 39px;
+	height: 39px;	
+}
+
+.icon-005 {
+	background: url(../images/sprites.png)  0 -450px;
+	width: 24px;
+	height: 24px;	
+}
+
+.icon-006 {
+	background: url(../images/sprites.png)  -26px -450px;
+	width: 24px;
+	height: 24px;	
+}
+
+.icon-007 {
+	background: url(../images/sprites.png)  0 -475px;
+	width: 24px;
+	height: 24px;	
+}
+
+.icon-008 {
+	background: url(../images/sprites.png)  -26px -475px;
+	width: 24px;
+	height: 24px;	
+}
+
+.icon-009 {
+	background: url(../images/sprites.png)  -53px -450px;
+	width: 25px;
+	height: 25px;	
+}
+
+.icon-010 {
+	background: url(../images/sprites.png)  -75px -475px;
+	width: 25px;
+	height: 24px;	
+}
+
+.icon-011 {
+	background: url(../images/sprites.png)  -100px -450px;
+	width: 25px;
+	height: 25px;	
+}
+
+.icon-012 {
+	background: url(../images/sprites.png)  -125px -476px;
+	width: 25px;
+	height: 24px;	
+}
+
+.icon-013 {
+	background: url(../images/sprites.png)  -150px -450px;
+	width: 15px;
+	height: 15px;	
+}
+
+.icon-014 {
+	background: url(../images/sprites.png)  -169px -450px;
+	width: 23px;
+	height: 16px;	
+}
+
+.icon-015 {
+	background: url(../images/sprites.png)  -157px -473px;
+	width: 9px;
+	height: 16px;	
+}
+
+.icon-016 {
+	background: url(../images/sprites.png)  -169px -472px;
+	width: 22px;
+	height: 21px;	
+}
+
+.icon-017 {
+	background: url(../images/sprites.png)  -108px -700px;
+	width: 35px;
+	height: 35px;	
+}
+
+.icon-018 {
+	background: url(../images/sprites.png)  0px -510px;
+	width: 30px;
+	height: 30px;	
+}
+
+.icon-019 {
+	background: url(../images/sprites.png)  -52px -510px;
+	width: 28px;
+	height: 30px;	
+}
+
+.icon-020 {
+	background: url(../images/sprites.png)  -100px -510px;
+	width: 30px;
+	height: 30px;	
+}
+
+.icon-021 {
+	background: url(../images/sprites.png)  0px -550px;	
+	width: 30px;
+	height: 30px;	
+}
+
+.icon-022 {
+	background: url(../images/sprites.png)  -50px -550px;
+	width: 30px;
+	height: 30px;	
+}
+
+.icon-023 {
+	background: url(../images/sprites.png)  -100px -550px;
+	width: 30px;
+	height: 30px;	
+}
+
+.icon-024 {
+	background: url(../images/sprites.png)  -150px -500px;
+	width: 36px;
+	height: 36px;	
+}
+
+.icon-025 {
+	background: url(../images/sprites.png)  -200px -500px;
+	width: 36px;
+	height: 36px;	
+}
+
+.icon-026 {
+	background: url(../images/sprites.png)  -250px -500px;
+	width: 36px;
+	height: 36px;	
+}
+
+.icon-027 {
+	background: url(../images/sprites.png)  -150px -550px;
+	width: 37px;
+	height: 37px;	
+}
+
+.icon-028 {
+	background: url(../images/sprites.png)  -200px -550px;
+	width: 36px;
+	height: 36px;
+}
+
+.icon-029 {
+	background: url(../images/sprites.png)  -250px -550px;
+	width: 36px;
+	height: 36px;	
+}
+
+.icon-030 {
+	background: url(../images/sprites.png)  -300px -500px;
+	width: 35px;
+	height: 34px;	
+}
+
+.icon-031 {
+	background: url(../images/sprites.png)  -300px -550px;
+	width: 28px;
+	height: 28px;	
+}
+
+.icon-032 {
+	background: url(../images/sprites.png)  0px -600px;
+	width: 36px;
+	height: 35px;	
+}
+
+.icon-033 {
+	background: url(../images/sprites.png)  -50px -600px;
+	width: 42px;
+	height: 44px;	
+}
+
+.icon-034 {
+	background: url(../images/sprites.png)  -100px -600px;
+	width: 32px;
+	height: 34px;	
+}
+
+.icon-035 {
+	background: url(../images/sprites.png)  -150px -600px;
+	width: 36px;
+	height: 34px;
+}
+
+.icon-036 {
+	background: url(../images/sprites.png)  -50px -750px;
+	width: 25px;
+	height: 25px;	
+}
+
+.icon-037 {
+	background: url(../images/sprites.png)  -75px -773px;
+	width: 25px;
+	height: 25px;	
+}
+
+.icon-038 {
+	background: url(../images/sprites.png)  -10px -761px;
+	width: 32px;
+	height: 32px;	
+}
+
+.icon-039 {
+	background: url(../images/sprites.png)  0px -650px;
+	width: 28px;
+	height: 27px;	
+}
+
+.icon-040 {
+	background: url(../images/sprites.png)  -50px -650px;
+	width: 28px;
+	height: 28px;	
+}
+
+.icon-041 {
+	background: url(../images/sprites.png)  -100px -650px;
+	width: 25px;
+	height: 25px;	
+}
+
+.icon-042 {
+	background: url(../images/sprites.png)  -150px -650px;
+	width: 50px;
+	height: 50px;	
+}
+
+.icon-043 {
+	background: url(../images/sprites.png)  0px -700px;
+	width: 53px;
+	height: 52px;	
+}
+
+.icon-044 {
+	background: url(../images/sprites.png)  -67px -700px;
+	width: 33px;
+	height: 33px;	
+}
+
+.icon-045 {
+	background: url(../images/sprites.png)  -201px 0px;
+	width: 15px;
+	height: 14px;	
+}
+
+.icon-046 {
+	background: url(../images/sprites.png)  -219px 0px;
+	width: 15px;
+	height: 14px;	
+}
+
+.icon-047 {
+	background: url(../images/sprites.png)  -240px -3px;
+	width: 7px;
+	height: 8px;	
+}
+
+.icon-048 {
+	background: url(../images/sprites.png)  -201px -21px;
+	width: 14px;
+	height: 7px;	
+}
+
+.icon-049 {
+	background: url(../images/sprites.png)  -220px -21px;
+	width: 7px;
+	height: 6px;	
+}
+
+.icon-050 {
+	background: url(../images/sprites.png)  -234px -15px;
+	width: 14px;
+	height: 14px;	
+}
+
+.icon-051 {
+	background: url(../images/sprites.png)  -201px -33px;
+	width: 12px;
+	height: 13px;	
+}
+
+.icon-052 {
+	background: url(../images/sprites.png)  -221px -33px;
+	width: 16px;
+	height: 15px;	
+}
+
+.icon-053 {
+	background: url(../images/sprites.png)  -250px 0px;
+	width: 45px;
+	height: 45px;	
+}
+
+.icon-054 {
+	background: url(../images/sprites.png)  -300px 0px;
+	width: 45px;
+	height: 45px;	
+}
+
+.icon-056 {
+	background: url(../images/sprites.png)  -150px -26px;
+	width: 22px;
+	height: 22px;
+}
+
+.icon-057 {
+	background: url(../images/sprites.png)  -100px -750px;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-058 {
+	background: url(../images/sprites.png)  -400px 0px;
+	width: 45px;
+	height: 45px;
+}
+
+.icon-059 {
+	background: url(../images/sprites.png)  -350px 0px;
+	width: 45px;
+	height: 45px;
+}
+
+.icon-060 {
+	background: url(../images/sprites.png)  -250px -350px;
+	width: 60px;
+	height: 59px;
+}
+
+.icon-061 {
+	background: url(../images/sprites.png)  -250px -424px;
+	width: 60px;
+	height: 59px;
+}
+
+.icon-062 {
+	background: url(../images/sprites.png)  -350px -350px;
+	width: 60px;
+	height: 59px;
+}
+
+.icon-063 {
+	background: url(../images/sprites.png)  -350px -424px;
+	width: 60px;
+	height: 59px;
+}
+
+.icon-064 {
+	background: url(../images/sprites.png)  -350px -500px;
+	width: 52px;
+	height: 52px;
+}
+
+.icon-065 {
+	background: url(../images/sprites.png)  -395px -546px;
+	width: 54px;
+	height: 54px;
+}
+
+.icon-066 {
+	background: url(../images/sprites.png)  -150px -700px;
+	width: 36px;
+	height: 36px;
+}
+
+.icon-067 {
+	background: url(../images/sprites.png)  -350px -557px;
+	width: 36px;
+	height: 36px;
+}
+
+.icon-068 {
+	background: url(../images/sprites.png)  -50px -784px;
+	width: 18px;
+	height: 16px;
+}
+
+.icon-069 {
+	background: url(../images/sprites.png)  -200px -400px;
+	width: 50px;
+	height: 50px;
+}
+
+.icon-070 {
+	background: url(../images/sprites.png)  -200px -450px;
+	width: 37px;
+	height: 37px;
+}
+
+.icon-071 {
+	background: url(../images/sprites.png)  -87px -750px;
+	width: 13px;
+	height: 10px;
+}
+
+.icon-add-to-cart {
+	background: url(../images/sprites.png)  -450px -450px;
+	width: 33px;
+	height: 32px;
+}
+
+.icon-add-to-cart-hover {
+	background: url(../images/sprites.png)  -500px -450px;
+	width: 51px;
+	height: 50px;
+}
+
+.icon-add-to-compare {
+	background: url(../images/sprites.png)  -450px -500px;
+	width: 32px;
+	height: 32px;
+}
+
+.icon-add-to-compare-hover {
+	background: url(../images/sprites.png)  -500px -500px;
+	width: 51px;
+	height: 50px;
+}
+
+.icon-compare {
+	background: url(../images/sprites.png)  -450px -400px;
+	width: 33px;
+	height: 32px;
+}
+
+.icon-compare-hover {
+	background: url(../images/sprites.png)  -500px -400px;
+	width: 51px;
+	height: 50px;
+}

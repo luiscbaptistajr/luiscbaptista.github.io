@@ -1,0 +1,77 @@
+/* =============================================================================
+   IE Specific Styles
+   Loaded via <!--[IF IE]> conditional comment.
+   ========================================================================== */
+
+/* ===============
+   INLINES
+   =============== */
+.ui-inline {
+	position: relative;
+	display: block;
+   float: left;
+}
+
+/* ===============
+   MENU ARROW DOWN
+   =============== */
+span.arrow-down {
+	left: 50%;
+	margin-left: -3.5px;
+}
+
+/* ===============
+   BOX-SHADOW
+   =============== */
+#header, .sticky-login {
+   filter:none;
+}
+
+.sticky-login {
+   background: #58595b;
+   padding-right: 45px;   
+}
+
+
+/* =============================================
+   Radial gradient background fix for IE
+   ============================================= */
+
+#header {
+   height: 71px;
+}
+
+.box-960 {
+
+   .breadcrumbs-holder {
+      height: 125px;
+      line-height: 125px;
+   }
+
+}
+
+//.mini-slider-box {
+
+ //  .mini-nav {
+
+//      margin: 60px auto;
+//      width: 222px;
+
+ //  }
+
+//}
+
+/* =============================================
+   DOWNLOADS GALLY DROPDOWNLIST
+   ============================================= */
+
+.downloads {
+   .product-list {
+      .float-left {
+         #sort-by, #order-by {
+            padding-right: 0;
+         }
+      }
+   }
+}
+

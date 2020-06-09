@@ -1,0 +1,147 @@
+/*!
+ * [Project Name]
+ * ABS-CBN Corporation 2015
+ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "museo-sans", Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+header {
+  background: #5F5F5F;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+header .logo {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding: 10px 0;
+  margin: 0; }
+header .logo a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 18px; }
+
+#content {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  height: auto;
+  float: left; }
+#content .top-image {
+  background-image: url(../images/header.jpg);
+  position: relative;
+  height: 40vh;
+  text-indent: -9999px;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+#content .content {
+  width: 75%;
+  margin: 0 auto; }
+#content .content .gallery {
+  width: 100%;
+  height: auto;
+  float: left; }
+#content .content .category-title h2 {
+  text-align: left;
+  margin-left: 2.08333%;
+  font-weight: normal;
+  color: #333;
+  font-size: 24px; }
+#content .content .itemInfo {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+#content .content .itemInfo .display-phones {
+  float: left;
+  width: 31.25%;
+  margin: 10px auto;
+  padding: 10px 0;
+  border: 1px solid #ebebeb;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+#content .content .itemInfo .display-phones h3, #content .content .itemInfo .display-phones p {
+  margin: 0; }
+#content .content .itemInfo .display-phones .item-name {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  color: #666; }
+#content .content .itemInfo .display-phones .item-description {
+  margin: 20px 3.33333%;
+  color: #666; }
+#content .content .itemInfo .display-phones .item-price {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  background: #ccc;
+  color: #000;
+  text-align: center;
+  border: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+footer {
+  clear: both;
+  height: 50px;
+  padding-top: 20px; }
+footer p {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  font-size: 10px; }
+
+@media (max-width: 480px) {
+  #content .top-image {
+    background-size: contain;
+    background-repeat: no-repeat; }
+  #content .content .gallery {
+    width: 100%; }
+  #content .content .itemInfo {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  #content .content .itemInfo .display-phones {
+    width: 100%; } }
+
+/*# sourceMappingURL=master.css.map */

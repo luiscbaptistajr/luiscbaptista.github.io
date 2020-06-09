@@ -1,0 +1,3 @@
+/* (c) Copyright 1985-2011 IBM Corporation. All rights reserved. */
+/* $HaikuForm - 481.21 */
+  function FwQ(){this.Fty = 'B|1|76';this.Fpp = '';this.GRJ = 'F1';this.GLh = '';this.GGH='';this.GzY='' == '1';this.HAl='' == '1' || this.GzY;if (this.GzY){this.GzW={Gyh : ''};} if (this.HAl){this.Gym='';} if (this.HAl){AAA.DSq.addCustomSidebarPanel=function(sProvider, sTitle, FRx, CWx){AAA.DSq.ELU(null, 'addCustomSidebarPanel', 'HAa',{sProvider:sProvider, sTitle:sTitle, FRx:FRx, CWx:CWx});};AAA.DSq.getSidebarPanels=function(){AAA.DSq.ELU(null, 'getSidebarPanels', 'Gxi',{FYj: FYj});};}} var oElem=parent.s_MainFrame.document.getElementById('e-loading');if (oElem) oElem.innerHTML=oElem.innerHTML.replace(/\s+$/, '') + '.';

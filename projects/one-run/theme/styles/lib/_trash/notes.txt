@@ -1,0 +1,30 @@
+
+WEB
+
+Foundations
+- Grid (12)
+- Columns (1, 2, 3, 4, 6)
+- Grid Variations ()
+- Baseline + Baseline Grid
+- Background Grid
+- Responsive (240, 320, 480, 600, 769, 992)
+
+Building Blocks
+- Fonts
+- Type Sizes
+- Spacing
+
+Iconography
+
+
+
+GOLDEN RATIO TYPOGRAPHY
+
+I. Type Sizes 
+
+	- P: 12px
+	- H6: P * 1.618
+
+II. Line Height
+
+http://www.pearsonified.com/2011/12/golden-ratio-typography.php

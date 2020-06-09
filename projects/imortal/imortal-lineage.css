@@ -1,0 +1,71 @@
+.imortalLineage-bg
+{
+	background: url(img/cast/bg.jpg) no-repeat center center;
+	width: 960px;
+	min-height: 484px;
+}
+
+.top-title
+{
+	width: 960px;
+	height: 110px;
+	text-align: center;
+}
+
+.top-title img
+{
+	margin: 19px 0;	
+}
+
+.left-group
+{
+	width: 260px;
+	height: 273px;
+	float: left;	
+}
+
+.right-group
+{
+	width: 279px;
+	height: 273px;
+	float: left;	
+}
+
+.center-group
+{
+	width: 421px;
+	height: 273px;
+	float: left;
+}
+
+.center-group a img
+{
+	margin-top: 20px;
+}
+
+.center-bigImg { height: 273px; float: left; width: 179px; text-align: center; }
+.center-malia { height: 193px; float: left; margin-top: 80px }
+
+.col-1
+{
+	width: 260px;
+	float: left;
+	text-align: center;	
+}
+
+.col-2
+{
+	width: 279px;
+	float: left;
+	text-align: center;	
+}
+
+.col-1 a img
+{
+	margin: 5px 20px;
+}
+
+.col-2 a img
+{
+	margin: 5px;
+}

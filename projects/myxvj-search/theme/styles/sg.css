@@ -1,0 +1,53 @@
+/* Colors
+---------------------------------------------------------------------------- */
+.sg-color {
+  background: #fff;
+  border: 1px solid #bbb;
+  display: inline-block;
+  height: 77px;
+  margin: 0 .5em .5em 0;
+  padding: 5px;
+  position: relative;
+  width: 135px;
+}
+
+.sg-color-swatch {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.sg-color-swatch span {
+  background: #000;
+  background: rgba(0,0,0,.7);
+  bottom: 5px;
+  color: #fff;
+  font-size: .8em;
+  margin: 0;
+  opacity: 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  text-transform: lowercase;
+  width: 135px;
+}
+
+.sg-color-swatch:hover span {
+  opacity: 1;
+}
+
+.sg-color--a .sg-color-swatch {background: #094770;}
+.sg-color--b .sg-color-swatch {background: #0b5a8f;}
+.sg-color--c .sg-color-swatch {background: #004a80;}
+.sg-color--d .sg-color-swatch {background: #ffffff;}
+.sg-color--e .sg-color-swatch {background: #898989;}
+.sg-color--f .sg-color-swatch {background: #363636;}
+.sg-color--g .sg-color-swatch {background: #002e43;}
+.sg-color--h .sg-color-swatch {background: #094a76;}
+.sg-color--i .sg-color-swatch {background: #737373;}
+.sg-color--j .sg-color-swatch {background: #517fa4;}
+.sg-color--k .sg-color-swatch {background: #dedede;}
+.sg-color--l .sg-color-swatch {background: #f0373e;}
+.sg-color--m .sg-color-swatch {background: #f0373e;}
+.sg-color--n .sg-color-swatch {background: #f5ba4f;}
+.sg-color--o .sg-color-swatch {background: #888888;}

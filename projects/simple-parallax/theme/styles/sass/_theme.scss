@@ -1,0 +1,147 @@
+/* HEADER */
+header {
+	&.uninav-news {
+		background: #000;
+
+		.header-bar, .header-bar-inner {
+			background: #000;			
+		}
+		.navbar-toggle {
+			&.collapsed {background: #000;}
+		}
+	}
+}
+
+section {
+	&.bg-hero {background-image: url(../images/bg-hero.jpg);}
+	&.mechanics {
+		.inner {background: #fff;}
+	}
+	&.bottom-content {
+		background: #f7f6f7;
+	}
+
+}
+
+.title {color: #09b1b1;}
+h2 {
+	font-size: 1.619em;
+	font-weight: $bold;
+}
+
+h4 {
+	font-size: 1.619em;
+	font-weight: $semi;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.text-bold {
+	font-weight: bold;
+	color: #4c4b4b;
+	&.large{font-size: 0.952em;}
+	&.small{font-size: 0.667em;}
+}
+.text-reg {
+	font-weight: $regu;
+	&.gray{
+		color: #676666;
+	}
+	&.black{
+		font-size: 0.952em;
+		color: #231f20;
+	}
+}
+.text-link {
+	color: #e00b89;
+	&.reg {
+		font-weight: $regu;
+		font-size: 0.952em;
+	}
+	&.bold {font-weight: $bold;}
+	&.white {
+		color: #fff;
+		&.small {font-size: 0.762em}
+		&.large {font-size: 1.238em}
+	}
+}
+
+.social {
+	width: 190px;
+	padding: 10px 5px;
+	margin: 10px;
+	display: inline-block;
+
+	&::before {
+		content: "";
+		display: inline-block;
+		margin-right: 5px;
+		position: relative;
+		top: 2px;
+		background: url(../images/sprite-social.png) no-repeat;
+	}
+
+	&.fb {
+		background: #1c66cb;
+		@include border-radius(5px);
+
+		&::before {
+			width: 10px;
+			height: 15px;	
+			background-position: -8px -2px;		
+		}
+	}
+
+	&.tw {
+		background: #0dcbfa;
+		@include border-radius(5px);
+
+		&::before {
+			width: 18px;
+			height: 15px;
+			background-position: -27px -2px;		
+		}
+	}
+
+	// &.tw {
+	// 	width: 18px;
+	// 	height: 15px;
+	// 	background-position: -27px -2px;
+	// }
+}
+
+.back-to-top {
+	width: percentage(234px/1280px);
+	height: 40px;
+	background: #fff;
+	line-height: 40px;
+	-webkit-box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.55);
+	-moz-box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.55);
+	box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.55);
+}
+
+.btn-submit {
+	width: percentage(200px/1280px);
+	height: 60px;
+	background: #e00b89;
+	border: 0;
+	text-transform: uppercase;
+}
+/* Footer */
+footer { 
+	color: #fff; 
+	background: #231f20; 
+	font-weight: 100; 
+	font-size: 12px; 
+
+	a { 
+		color: #fff; 
+		text-transform: uppercase;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}

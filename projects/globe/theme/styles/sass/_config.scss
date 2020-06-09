@@ -1,0 +1,96 @@
+@import "../lib/mixins.scss";
+@import "../lib/required/normalize.scss";
+
+@include font-face("fs_elliot_probold", "fs_elliot_pro-bold-webfont");
+@include font-face("fs_elliot_proitalic", "fs_elliot_pro-italic-webfont");
+@include font-face("fs_elliot_proregular", "fs_elliot_pro-regular-webfont");
+@include font-face("fs_elliot_prolight", "fs_elliot_pro-light-webfont");
+@include font-face("fs_elliot_proheavy", "fs_elliot_pro-heavy-webfont");
+
+$fontBold: "fs_elliot_probold", helvetica;
+$fontItalic: "fs_elliot_proitalic", helvetica;
+$fontReg: "fs_elliot_proregular", helvetica;
+$fontLight: "fs_elliot_prolight", helvetica;
+$fontHeavy: "fs_elliot_proheavy", helvetica;
+
+// NAVIGATION MENU
+$navbar-color: #f8f8f8;
+$navbar-color-selected: #005ab0;
+$footer-links: #cdcece;
+
+// COLOR DETAILS
+$royalBlue: #1853a3;
+$dodgerBlue: #0069b4;
+$cornFlowerBlue: #244485;
+$steelBlue: #145e8b;
+$darkGrey: #58595b;
+$purple: #2a368c;
+$lightCyan: #a9ddf7;
+
+$darkViolet: #4f1d7f;
+$blueViolet: #584696;
+
+$red: #e10f2b;
+
+$deepPink: #e75e9d;
+$hotPink: #ea7aaf;
+$lightPink: #f4bbd6;
+$darkPink: #f1b6d2;
+
+$lightGrey: #b8babd;
+$whiteGrey: #e7e7e8;
+$orange: #fc9500;
+$yellow: #ffdb00;
+$springGreen: #40a43b;
+$mintGreen: #7ebd36;
+
+// EXTRA COLOR DETAILS
+$midGrey: #a9aaac;
+$lightOrange: #f7b068; 
+$yellowGreen: #aabb17;
+$silver: #e5e5e6;
+$radialGreen: #56b6c9;
+
+$lightPurple: #bf48b5;
+$darkPurple: #8a2c95;
+
+$shadow: #131313;
+
+$title-white: #ffffff;
+$title-black: #212223;
+
+$p-content-box-480-light: #ffffff;
+$p-content-box-480-dark: #000000;
+
+// BOX SHADOW
+$inset-yes: inset;
+$inset-no: no;
+
+// BORDER COLOR
+$navyBlue: #00366a;
+$lightNavy: #00509c;
+
+// TEXT LINKS 
+$whiteBox: #0461af;
+$whiteBoxHover: #202123;
+
+$silverBox: #0661b0;
+$silverBoxHover: #212322;
+
+$blueBox: #1952a3;
+$blueBoxHover: #fefffd;
+
+$greenBox: #0562b2;
+$greenBoxHover: #fdfffc;
+
+$boxPink: #0661b2;
+$boxPinkHover: #fff;
+
+$greyBox: #b6b7b9;
+$greyBoxHover: #ffffff;
+
+$lighterBlue: #d7e2f1;
+$whiteBlue: #fefeff;
+
+
+

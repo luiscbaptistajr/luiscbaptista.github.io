@@ -1,0 +1,189 @@
+#content {
+	min-height: 1200px;
+	position: relative;
+}
+
+nav.sub-nav {
+	position: relative;
+	margin: 0 auto 10px auto;
+	padding: 0;
+	border-bottom: 2px solid #bbccef;
+	width: 960px;
+	height: 59px;
+	background: url(../images/bg-subnav.jpg) no-repeat top;
+}
+
+.sub-nav {
+	margin: 0;
+	padding: 0;
+}
+
+.sub-nav ul {
+	margin: 25px 0 0 0;
+	height: 30px;
+	
+}
+
+.sub-nav li {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.sub-nav li a {
+	margin: 0 20px;
+	padding: 0;
+	height: 30px;
+	color: #37528b;
+	line-height: 35px;
+}
+
+.fb {
+	margin: 8px 20px 0 20px !important;
+	padding: 0 10px;
+	width: 8px;
+	background: url(../images/subnav-fb.png) no-repeat;
+	text-indent: -999em;
+}
+
+.tw {
+	margin: 8px 20px 0 20px !important;
+	padding: 0 10px;
+	width: 23px;
+	height: 17px;
+	background: url(../images/subnav-tw.png) no-repeat;
+	text-indent: -999em;
+}
+
+.youtube {
+	margin: 5px 20px 0 20px !important;
+	padding: 0 10px;
+	width: 23px;
+	height: 22px;
+	background: url(../images/subnav-yt.png) no-repeat;
+	text-indent: -999em;
+}
+
+.wifi {
+	margin: 8px 20px 0 20px !important;
+	padding: 0 10px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/subnav-wifi.png) no-repeat;
+	text-indent: -999em;
+}
+
+
+
+.content-holder {
+	width: 960px;
+	margin: 20px auto;
+}
+
+.content-blog {
+	position: relative;
+	float: left;
+}
+
+.holder-130 {
+	float: left;
+	width: 130px;
+}
+
+
+.clear-both {
+	clear: both;
+}
+
+.no-float {
+	float: none;
+}
+
+.content-blog img {
+	display: block;
+}
+
+.details {
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	color: #fff;
+}
+
+.details-side {
+	position: absolute;
+	right: 0;
+	width: 130px;
+	height: 210px;
+	color: #fff;
+}
+
+.details h3, .details-side h3 {
+	margin: 0;	
+	padding: 0;
+	font-family: "fs_elliot_proregular", helvetica;
+}
+
+.details p, .details-side p {
+	margin: 0;
+	padding: 5px 0;
+	font-size: 12px;
+	font-family: "fs_elliot_proregular", helvetica;
+}
+
+.details a,
+.details-side a {
+	color: #fff;
+	font-family: "fs_elliot_proregular", helvetica;
+
+}
+
+.bottom-5 {
+	margin-bottom: 5px;
+}
+
+.right-5 {
+	margin-right: 5px;
+}
+
+.top-5 {
+	margin-top: 5px;
+}
+
+.no-float {
+	float: none;
+}
+
+.label-red {
+	padding: 30px 10px !important;
+	height: 80px;
+	background: url(../images/bg-opacity-red.png);
+}
+
+.label-gray {
+	padding: 10px;
+	height: 50px;
+	background: url(../images/bg-opacity-gray.png);
+}
+
+.label-violet {
+	padding: 30px 10px;
+	background: url(../images/bg-opacity-violet.png);
+}
+
+.label-flesh {
+	padding: 30px 10px;
+	background: url(../images/bg-opacity-flesh.png);
+}
+
+.ad-here {
+	padding: 30px 0;
+}
+
+.ad-here img {
+	display: block;
+}
+
+
+

@@ -1,0 +1,61 @@
+.box-color-blue {
+	@include background-gradient($dodgerBlue, $dodgerBlue, $dodgerBlue);
+}
+
+.box-lightPink-deepPink {
+	@include background-gradient($lightPink, $deepPink, $lightPink);
+}
+
+.box-yellow-orange {
+	@include background-gradient($yellow, $orange, $yellow);
+}
+
+.box-whiteGrey-lightGrey {
+	@include background-gradient($whiteGrey, $lightGrey, $whiteGrey);
+	position: relative;
+}
+
+.box-lightGrey-midGrey {
+	@include background-gradient($lightGrey, $midGrey, $lightGrey);
+}
+
+.box-springGreen-mintGreen {
+	@include background-gradient($springGreen, $mintGreen, $springGreen);
+}
+
+.box-darkViolet-blueViolet {
+	@include background-gradient($darkViolet, $blueViolet, $darkViolet);
+}
+
+.box-yellowGreen-springGreen {
+	@include background-gradient($yellowGreen, $springGreen, $yellowGreen);
+}
+
+.box-lightOrange-deepPink {
+	@include background-gradient($lightOrange, $deepPink, $lightOrange);
+}
+
+.box-lightPink-hotPink {
+	@include background-gradient($lightPink, $hotPink, $lightPink);	
+}
+
+.box-silver-lightGrey {
+	@include background-gradient($silver, $lightGrey, $silver);
+}
+
+.box-lightPurple-darkPurple {
+	@include background-gradient($lightPurple, $darkPurple, $lightPurple);
+}
+
+.box-greyBoxHover-lighterBlue {
+	@include background-gradient($greyBoxHover, $lighterBlue, $greyBoxHover);
+}
+
+.box-lightPink-darkPink {
+	@include background-gradient($lightPink, $darkPink, $lightPink);
+}
+
+.box-lighterBlue-whiteBlue {
+	@include background-gradient($whiteBlue, $lighterBlue, $lighterBlue);	
+}
+

@@ -1,0 +1,348 @@
+@charset "UTF-8";
+@import "_config.scss";
+@import "_gradient.scss";
+@import "_typography.scss";
+
+.mobile, .tablet {
+    display:none;
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .mobile, .tablet {
+        display:block;
+    }
+    
+    #header {
+        height:auto;
+        line-height:0;
+        @include clearfix();
+    }
+
+    #header .main {
+
+        width:100%;
+        display:inline-block;
+        @include clearfix();
+
+        .logo {
+            position:absolute;
+            left:50px;
+            top:0;
+            width:auto;
+            height:auto;
+            margin:10px 20px;
+
+            a {
+                margin:0;
+            }
+        }
+
+        .menu-border {
+            display:none;
+        }
+
+        nav { 
+            background-color:#005ab0;
+            display:block;
+            width:auto;
+            height:auto;
+            border-right:1px solid;
+            //.menu-border { display:none; }
+            
+            .menu-launcher {
+
+                width:40px;
+                padding:11px 10px;
+                display:inline-block;
+
+                span {
+                    margin:6px 5px 5px;
+                    display:block;
+                    border:2px solid white;
+                    -webkit-border-radius:5px;
+                    -moz-border-radius:5px;
+                    border-radius:5px;
+                }
+
+                &.active {
+                    background-color:#1953a4;
+                }
+            }
+
+            > ul {
+                position:absolute;
+                top:100%;
+                left:0;
+                width:100%;
+                overflow:hidden;
+                display:none;
+
+                li {
+                    border-bottom:1px solid #083866;
+                    
+                    + li {
+                        border-top:1px solid #327ebc;
+                    }
+
+                    a {
+                        background-color:#1953a4;
+                        color:white;
+                        height:40px;
+                        line-height:40px;
+                        &:hover {
+                        }
+                    }
+                }
+
+                .tablet-sub-nav-prod {
+                    background-color:#1953a4;
+                    position:relative;
+                    top:0;
+                    width:100%;
+                    /* IE 8 */
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+                    /* IE 5-7 */
+                    filter: alpha(opacity=80);
+                    /* Netscape */
+                    -moz-opacity:0.8;
+                    /* Safari 1.x */
+                    -khtml-opacity:0.8;
+                    /* Good browsers */
+                    opacity:0.8;
+
+                    li {
+                        background-color:transparent;
+                        &:last-child { border-bottom:none; }
+                        a { background-color:transparent; }
+                        .icon-039 {
+                            background: url(../images/sprites.png) 0px -650px;
+                            width:28px;
+                            height:27px;
+                            margin-top:5px;
+                            margin-right:10px;
+                            float:left;
+                        }
+                    }
+                }
+
+            }
+
+            .nav-menu {
+                float:left;
+                width:100%;
+                height:auto;
+            }
+
+            a {
+                float:none;
+                height:auto;
+                text-align:left;
+                white-space:nowrap;
+                line-height:30px;
+                display:block;
+
+                > span {
+                    display:none;
+                }
+            }
+
+        }
+        .search-box {
+            float:right;
+            margin:15px 20px 15px 0;
+        }
+
+    }
+
+    .slider {
+        width:100%;
+        height:538px;
+
+        ul {
+            width:100%;
+            li { width:80%; }
+        }
+        .share-box { width:10%; }
+        .title-box {
+            width:40%;
+            h2 {
+                font-size:32px;
+                line-height:32px;
+            }
+        }
+        .content-box {
+            width:40%;
+            p {
+                font-size:18px;
+                line-height:20px;
+            }
+        }
+        .hero-box { 
+            width:40%;
+            img { width:100%; }
+            .slide-hero img, .thumbnail-box a img { width:auto; }
+            object, embed, iframe {
+                width:100%;
+                height:50%;
+                margin-left:0px;
+            }
+        }
+    }
+    .slider-box {
+        height:530px;
+        overflow:hidden;
+    }
+    .box-960 {
+        width:100%;
+        padding-top:30px;
+        .breadcrumbs-holder {
+            margin-top:20px;
+            .bread-left { 
+                margin-left:20px;
+                width:35%;
+                h2 { font-size:24px; }
+            }
+            .bread-list {
+                width:auto;
+                font-size: 10px;
+                .bread-link { font-size:14px; }
+            }
+        }
+        #home-box-002 { padding-left:20px; }
+        .home-leftCol-005, .home-rightCol-005 { width:28%; }
+        .mobile-features { width:100%; }
+        .prepaid-promos {
+            .featured-title { width:100%; }
+            .promo-list-holder {
+                padding-left:20px;
+                .promo-list {
+                    width:48%;
+                    img { float:none;}
+                    .w425 { width:96.5%; }
+                }
+                .w425 {
+                    float:right;
+                    img { width:96.5%; }
+                }
+            }
+        }
+        #subscribe-news-letter { padding-left:40px; padding-right:40px; }
+        .page-title { margin-left:20px; font-size:24px; }
+        .cart-quickview { margin-right:60px; font-size:24px; }
+        &.mini-4-span-slider > ul { width:500%; }
+
+        #home-box-005 {
+            min-height:0;
+            padding:20px 0;
+
+            .home-leftCol-005, .home-rightCol-005 {
+                width:50%;
+                padding:0;
+
+                > * {
+                    margin-left:10px;
+                }
+            }
+
+        }
+    }
+    .main-box {
+        .static-holder { width:100%; height:100%; }
+        aside { position:absolute; z-index:5; }
+        .product-list { float:right; width:70%; }
+    }
+    .half-box {
+        height:auto;
+        .left-box-480, .right-box-480 {
+            width:100%;
+            height:auto;
+            .broadband-box {
+                padding-left: 20px;
+                padding-right: 20px;
+                width: auto;
+                min-height: 300px;
+
+                .broadband-image-480 { margin-right: 20px; float:left; }
+                span { position:relative; float:left; width:30%; }
+                .white-title, .black-title { font-size:22px; }
+                .white-text, .black-text { font-size:12px; }
+                .apply-now {}
+            }
+            .box-480 { height:100%; }
+            .mini-2-span-slider > ul { width:500%; }
+        }
+        .left-box-480 { 
+            #home-box-003 { padding-left:20px; }
+            .mini-2-span-group {
+                width:25%;
+                .slides { width:40%; }
+            }
+            .mini-slider-box { height:100%; }
+        }
+        .right-box-480 {
+            #home-box-004 { 
+                width:70%;
+                span { width:50%; }
+            }
+            .mobile-post-plan {
+                padding-right:20px;
+                .subscribe { left:0; }
+            }
+        }
+    }
+    
+    #footer {
+        position:relative;
+        height:auto;
+
+        .main { 
+            width:100%;
+            overflow:hidden;
+            ul {
+                width:15%;
+                padding:15px 0 15px 30px;
+            }
+        }
+    }
+    
+    #content {
+        min-height:0;
+        padding:0;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+//@media only screen and (min-width: 640px) and (max-width: 767px) {
+
+  //  #header {
+    //    position:relative;
+    //}
+
+    //@import "_mobile.scss";
+
+//}
+
+/* All Mobile Landscape Size */
+@media only screen and (max-width: 767px) {
+    
+    #header {
+        position:relative;
+    }
+
+    @import "_mobile.scss";
+
+}
+
+/* All Mobile Portrait Size */
+@media only screen and (max-width: 479px) {
+    
+    #footer {
+        ul {
+            width:50%;
+        }
+    }
+    
+}

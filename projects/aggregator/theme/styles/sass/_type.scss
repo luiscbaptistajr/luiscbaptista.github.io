@@ -1,0 +1,398 @@
+// Global
+body {
+	font-family: $font-primary;
+}
+
+
+// Headers
+h1 {
+	margin: 0;
+}
+
+h2 {
+	&.page-title {
+		font-size: 1.714em;
+		font-weight: $weight-300;
+		text-align: center;
+		color: $color-gold-light;
+	}
+}
+
+h3 {
+	&.block-title {
+		text-transform: uppercase;
+		color: $color-pink-dark;
+		font-size: 1.000em;
+		font-weight: $weight-500;
+	}
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+
+	&.promise-title {
+		font-size: 0.857em;
+		font-weight: $weight-700;
+		text-transform: uppercase;
+		color: $color-gold-light;
+		margin-left: 10px;
+		    margin-bottom: 10px;
+	}
+
+	.popup-content & {
+		font-size: 2.429em;
+	}
+}
+
+
+// Links
+a {
+	text-decoration: none;
+	&:link {
+		
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:active {
+		
+	}
+
+	&:visited {
+		
+	}
+
+	.teaser-copy & {
+		text-align: center;
+		display: block;
+	}
+
+	.promise-block & {
+		text-align: center;
+		font-weight: $weight-100;
+		font-size: 1.000em;
+		text-decoration: none;
+	}
+
+	&.link {
+		font-weight: $weight-100;
+		font-size: 0.857em;
+		text-decoration: none;
+	}
+	
+
+	&.featured-link {
+		font-weight: $weight-500;
+		font-size: 0.667em;
+		color: $color-pink-dark;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.link-prev &, .link-next &, &.page-link{
+		color: $color-grey-dark;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 0.857em;
+		font-weight: $weight-700;
+		padding: 10px;
+
+		&:hover {
+			color: $color-fair;
+			background-color: $color-pink-dark;
+		}
+
+		&.active {
+			color: $color-pink-dark;
+			text-decoration: underline;
+
+			&:hover {
+				color: $color-fair;
+			}
+		}
+	}
+
+	&.tab-link {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.popup-content & {
+		text-align: center;
+		display: block;
+	}
+
+}
+
+
+// Inputs
+input[type=text] {
+
+}
+
+label {
+	&.text-label {
+		margin: 0 0 10px;
+		color: $color-grey-dark;
+		font-size: 1.000em;
+		font-weight: $weight-500;
+	}
+
+	.fb-msg-wall & {
+		color: $color-blue;
+		font-size: 1.000em;
+		font-weight: $weight-300;
+		text-align: left;
+		text-indent: 34px;
+	}
+
+	&.gallery-checkbox {
+		font-size: 14px;
+		font-weight: $weight-300;
+		color: $color-grey-dark;
+	}
+}
+
+textarea {
+	&#txtarea-message {
+		font-size: 1.000em;
+		font-weight: $weight-300;
+		color: $color-grey-dark;
+	}
+}
+
+select {
+	
+}
+
+option {
+	
+}
+
+button {
+	&.submit {
+		border: none;
+	}
+}
+
+// Tables
+table {
+	td {
+
+	}
+}
+
+p {
+	margin: 0;
+	&.p-weekly {
+		font-size: 18px;
+		font-weight: $weight-500;
+		text-transform: uppercase;
+		color: #c6a211;
+	}
+	&.p-brand {
+		color: #959595;
+		font-size: 12px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	&.name-couple {
+		color: $color-fair;
+		font-size: 1.167em;
+		font-weight: $weight-300;
+		text-shadow: 2px 0px 5px #000;
+	}
+	&.page-sub-copy {
+		color: $color-grey-dark;
+		font-size: 0.857em;
+		text-align: center;
+	}
+
+	.teaser-copy &{
+		text-align: center;
+	}
+
+	&.couple-name {
+		color: $color-grey-dark;
+		font-size: 0.762em;
+		font-weight: $weight-300;
+	}
+
+	&.featured-copy {
+		line-height: 1.5;
+		font-size: 0.762em;
+		font-weight: $weight-500;
+		color: $color-grey-dark;
+	}
+
+	&.state-text-winner {
+		color: $color-fair;
+		font-weight: $weight-100;
+		text-transform: uppercase;
+
+		.state-text-small {font-size: 0.857em; letter-spacing: 1px;}
+		.state-text-large {font-size: 1.429em}
+	}
+
+	&.state-text-napako {
+		color: $color-fair;
+		font-weight: $weight-100;
+		text-transform: uppercase;
+
+		.state-text-small {font-size: 0.857em}
+		.state-text-large {font-size: 1.429em}
+	}
+
+	&.state-napako {
+		.front-overlay & {
+			color: $color-fair;
+			font-weight: $weight-100;
+			text-transform: uppercase;
+
+			.state-text-small {font-size: 48px; letter-spacing: 1px;}
+			.state-text-large {font-size: 72px}
+		}
+		
+	}	
+
+	&.content-header-copy {
+		color: $color-gold-yellow;
+		font-size: 1.000em;
+		text-align: center;
+		line-height: 1.5;
+	}
+
+	&.promise-bar, &.promise-name {
+		text-transform: uppercase;
+		color: $color-gold-black;
+		font-weight: $weight-700;
+	}
+
+	&.promise-bar, &.promise-name, &.promise-copy {
+		text-align: center;
+	}
+
+	&.promise-bar {
+		font-size: 0.667em;
+	}
+
+	&.promise-name {
+		font-size: 1.143em;
+	}
+
+	&.promise-copy {
+		color: $color-grey-dark;
+		font-weight: $weight-500;
+		font-size: 1.000em;
+	}
+
+	.step-tab-navigation & {
+		text-transform: uppercase;
+		color: $color-grey-dark;
+		font-size: 0.667em;
+		font-weight: $weight-500;
+	}
+
+	&.error-msg {
+		color: $color-pink-dark;
+		font-size: 0.667em;
+		font-weight: $weight-700;
+		margin: 10px 0;
+	}
+
+	&.note {
+		color: $color-grey-fair;
+		font-size: 0.667em;
+		font-style: italic;
+	}
+
+	.name-separator {
+		font-size: 24px;
+		color: $color-gold-dark;
+	}
+
+	footer & {
+		color: $color-fair;
+		font-size: 0.476em;
+		font-weight: $weight-300;
+	}
+
+	&.promise-title {
+		color: $color-black;
+		font-size: 1.000em;
+		font-weight: $weight-100;
+		text-transform: uppercase;
+	}
+
+	&.promise-copy {
+
+		.bottom-overlay & {
+			color: $color-black !important;
+			font-size: 1.000em !important;
+			font-weight: $weight-300 !important;	
+		}
+
+		.popup-content & {
+			text-align: center;
+			color: $color-grey-dark;
+			font-weight: $weight-300;
+			font-size: 1.000em;
+		}
+
+		.bottom-copy & {
+			text-align: center;
+			font-weight: $weight-500;
+			font-size: 18px;
+			color: $color-grey-dark;
+
+			small {
+				font-size: 14px;
+			}
+		}
+
+	}
+}
+
+nav {
+	ul li {
+		text-transform: uppercase;
+		color: $color-gold-dark;
+		font-size: 1.000em;
+
+		a {text-decoration: none;}
+	}
+}
+
+small {
+	&.brandname-block {
+		font-size: 0.571em;
+		font-weight: $weight-500;
+		color: $color-grey-ash;
+		text-transform: uppercase;
+	}
+	&.witness-block {
+		font-size: 0.571em;
+		font-weight: $weight-500;
+		color: $color-pink-dark;
+
+		.bottom-copy & {
+			font-size: 1.000em;
+		}
+	}
+}
+
+#tooltip {
+	font-size: 12px;
+	font-weight: $weight-300;
+	font-style: italic;
+	color: $color-grey-ash;
+}

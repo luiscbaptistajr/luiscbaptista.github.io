@@ -1,0 +1,30 @@
+/* =============================================================================
+   Resolution Specific Styles
+    320 - iPhone Portrait
+    480 - iPhone Landscape
+    768 - iPad Portrait
+   1024 - iPad Landscape
+
+   TODO: Provisions for Android device resolutions like 600px - 800px width, etc.
+   ========================================================================== */
+
+/* iPhone Portrait */
+@media handheld and (max-width: 320px), screen and (max-device-width: 320px){
+
+}
+
+/* iPhone Landscape */
+@media handheld and (max-width: 480px), screen and (max-device-width: 480px){
+
+}
+
+/* iPad Portrait */
+@media only screen and (max-device-width: 768px){
+
+}
+
+/* iPad Landscape */
+@media only screen and (max-device-width: 1024px){
+
+}
+

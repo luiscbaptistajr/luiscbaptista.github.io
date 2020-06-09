@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Alpha Immortal</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+		//animation image swap when clicked
+		$(document).ready(function(){
+			$('.pangitain-thumbsLeft .pangitain-detailbox').show();
+			$('.pangitain-thumbsRight .pangitainMainContainerBox ul li:first').addClass('active'); // to define the active/default image
+			
+			$('div.pangitain-thumbsRight ul li').click(function(){
+				var imgAlt = $(this).find('img').attr("alt"); //Get Alt Tag of Image
+				var imgTitle = $(this).find('a').attr("href"); //Get Main Image URL
+				var imgDesc = $(this).find('.pangitain-story').html(); //Get the HTML of the "block" container
+				var imgDescHeight = $('.pangitain-thumbsLeft').find('.pangitain-thumbsLeft').height(); //Find the height of the "block"
+				
+				if ($(this).is(".active")){
+					return false;
+				}
+				else
+				{
+					$(".pangitain-thumbsLeft .block").animate({ opacity: 0, marginBottom: -imgDescHeight }, 250 , function(){
+						$(".pangitain-thumbsLeft .block").html(imgDesc).animate({ opacity: 0.85,  marginBottom: "0" }, 250 );
+						$(".pangitain-thumbsLeft img").attr({
+							src: imgTitle,
+							alt: imgAlt
+							
+						});
+						
+					});
+					
+				}
+				$(".pangitain-thumbMainContainerBox ul li").removeClass('active'); //Remove class of 'active' on all list-items
+				$(this).addClass('active');  //Add class of 'active' on the selected list
+				return false;
+			});
+		});
+</script>
+
+
+<style type="text/css">
+ul#navbar .nav_extras a.nav-itemsExtras
+{
+	background-image:url(img/menu/nav-hoverExtras.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 47px;
+	width: 78px;	
+	margin-top: 3px;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="mainheader">
+        <div class="left-orn"></div>
+        <div>
+            <div class="header-top">
+		        <span class="login"><a href="http://www.google.com">Sign In</a> | <a href="#">Register</a></span>	            
+            </div>
+            <div class="left-linehead"></div>
+            <div class="header-mid" align="center">
+                <img src="img/logo.png" width="727" height="193" usemap="#logo-map" />
+            </div>
+            <map name="logo-map">
+              <area shape="rect" coords="510,125,190,70" href="index.html" alt="logo" />
+            </map>             
+            <div class="right-linehead"></div>
+            <div class="header-bottom">
+            	<span class="fanpage">
+                	<a href="#">
+                    	<img src="img/sc_icon-fb.jpg" width="15" height="15" /><p>Be our fan in facebook</p>
+                	</a>    
+                </span>
+            </div>
+        </div>
+        <div class="right-orn"></div>
+    </div>
+    <!---->
+    
+    <div class="mainbody">
+        <div class="main-wrapper">
+        <!--Start Main Wrapper-->
+        
+        	<!--Menu Navigation-->
+            <div class="navmenu-bar">
+                  <ul id="navbar">
+                    <li class="nav_about">
+                        <a href="#" title="About the show" class="nav-itemAbout">
+                        	<!--<img name="menu-about" src="img/menu/nav-about.png" width="138" height="24" />-->
+                        </a>
+                        <ul class="sub-about">
+                            <li><a class="synopsis" href="synopsis.html">Synopsis</a></li>
+                            <li><a href="cast-LiaOrtega.html">Cast</a></li>
+                            <li><a href="epsode-guide.html">Episode Guide</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav_anino">
+                    	<a href="anino.html" title="Anino't Panaginip" class="nav-itemAnino">
+                        	<!--<img name="menu-anino" src="img/menu/nav-anino.png" width="153" height="24" />-->
+                        </a>
+                    </li>
+                    <li class="nav_likha">
+                    	<a href="likha.html" title="Likhang Immortal" class="nav-itemLikha">
+                        	<!--<img name="menu-likha" src="img/menu/nav-likha.png" width="144" height="24" />-->
+                        </a>
+                        <ul class="sub-likha">
+                            <li><a href="characters.html">Characters</a></li>
+                            <li><a href="world.html">World</a></li>
+                            <li><a href="kwento.html">Kwentong Imortal</a></li>
+                            
+                            <li><a href="mechanics.html">Mechanics</a></li>                            
+                        </ul>                    
+                    </li>
+                    <li class="nav_games">
+                    	<a href="#" title="Games"  class="nav-itemGames">
+                        	<!--<img name="menu-games" src="img/menu/nav-games.png" width="57" height="24" />-->
+                        </a>
+                        <ul class="sub-games">
+                            <li><a href="#">Subitem One</a></li>
+                            <li><a href="#">Second Subitem</a></li>
+                            <li><a href="#">Numero Tres</a></li>
+                        </ul>                    
+                    </li>
+                    <li class="nav_extras" >
+                    	<a href="#" title="Extras" class="nav-itemsExtras">
+                        	<!--<img name="menu-extras" src="img/menu/nav-extras.png" width="62" height="24" />-->
+                        </a>                        
+                        <ul class="sub-extras">
+                            <li><a href="pangitain.html">Pangitain ni Jethro</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="store.html">Store</a></li>
+                        </ul></li>
+                  </ul>
+            </div>
+			<!--End Menu Navigation-->
+
+            
+            <!--Player box container-->
+            <div class="pangitain-container">
+            	<div id="pangitain-box">
+                	<div><img src="img/img-mainbox.jpg" width="506" height="314" /></div>
+                </div>
+                <div id="episode-detailbox">
+                	<div style="float: left; margin: 35px 16px;">
+                        <h1 class="detail-mainTitle">Lorem Ipsum Dolor Sit</h1>
+                        <p class="episodeDetail-text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nibh vel lectus accumsan laoreet. Sed urna libero, vehicula eu venenatis vitae, adipiscing quis lectus. Praesent libero magna, vehicula sit amet consectetur a, pretium vel sapien.<br /><br />
+
+Etiam lobortis sollicitudin ipsum eget vestibulum. Phasellus id tortor lorem, id malesuada purus.
+                        </p>
+                    </div>
+                </div>
+                <div style="float: right; margin-top: 6px;">
+                  <a href="#"><img src="img/sc_twitter.jpg" width="47" height="18" /></a>
+                  <a href="#"><img src="img/sc_fb.jpg" width="60" height="18" /></a>
+                </div>                
+            </div>
+            <!--end player box container-->
+            
+            <!--Content box-->
+            <div class="content-anino">
+                <div id="pangitain-thumbContainerBox">
+                	<div class="pangitain-thumbMainContainerBox">
+                		
+                        <div class="pangitain-thumbsLeft">
+                              <div class="pangitain-detailbox">
+                                  <div class="block">
+                                        <div id="pangitain-title">6/55</div>
+                                        <div id="pangitain-detail">
+Totoo lahat ng nakikita ko.Totoo ang lahat ng laman ng panaginip ko.
+Hindi ko na matatanggi yun.
+Hindi ko na matatanggi'ng totoo si Diane at Matthew. Ang mga bampira at taong lobo. 
+Kulang na lang makasalubong ko sina Edward at Jacob sa labasan at ayain nila ako ng inuman. <br /><br /> 
+Gusto ni Ate Diane (Ate Lia, Jethro! Ate Lia!) na ipakilala ako sa isa pang taong lobo.
+Pero gusto ko ba talaga yun? Full-on weirdo mode?
+Gusto ko ba talagang maging normal sa mundo ko ang mga taong pula o dilaw ang mata?
+At pa'no tatay ko? Pa'no ko itatago 'to sa kanya?
+Kasi 'pag nalaman niya 'to, masisiraan yun ng bait.<br /><br />
+Ba't ba naman kasi itong mga bagay pa na 'to ang nakikita ko? 
+Ba't di na lang 'yung kumbinasyon sa lotto?<br /><br />
+Mas madali atang i-solve ang kumplikasyong dala ng kalahating bilyon.
+Magagamit ko pa panalo ko para takasan na lang ang mundong 'to.
+Magkano kaya pamasahe papuntang Mars?<br /><br />                                      
+										</div>
+                                  </div>
+                              </div>
+							
+                        </div>
+                        <div class="pangitain-thumbsRight">
+                        	<div class="pangitain-thumbMainContainerBox">
+                                <ul>
+                                    <li>
+                                        <a href="#">item 1</a>
+                                        <div class="pangitain-story">
+                                            <div id="pangitain-title">6/55</div>
+                                            <div id="pangitain-detail">Totoo lahat ng nakikita ko.Totoo ang lahat ng laman ng panaginip ko.
+Hindi ko na matatanggi yun.
+Hindi ko na matatanggi'ng totoo si Diane at Matthew. Ang mga bampira at taong lobo. 
+Kulang na lang makasalubong ko sina Edward at Jacob sa labasan at ayain nila ako ng inuman. <br /><br /> 
+Gusto ni Ate Diane (Ate Lia, Jethro! Ate Lia!) na ipakilala ako sa isa pang taong lobo.
+Pero gusto ko ba talaga yun? Full-on weirdo mode?
+Gusto ko ba talagang maging normal sa mundo ko ang mga taong pula o dilaw ang mata?
+At pa'no tatay ko? Pa'no ko itatago 'to sa kanya?
+Kasi 'pag nalaman niya 'to, masisiraan yun ng bait.<br /><br />
+Ba't ba naman kasi itong mga bagay pa na 'to ang nakikita ko? 
+Ba't di na lang 'yung kumbinasyon sa lotto?<br /><br />
+Mas madali atang i-solve ang kumplikasyong dala ng kalahating bilyon.
+Magagamit ko pa panalo ko para takasan na lang ang mundong 'to.
+Magkano kaya pamasahe papuntang Mars?<br /><br />                                      
+</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">item 2</a>
+                                        <div class="pangitain-story">
+                                            <div id="pangitain-title">Lorem Ipsum Dolor</div>
+                                            <div id="pangitain-detail">Lorem ipsum dolor<br />sit amet.</div>
+                                        </div>	
+                                    </li>
+                                    <li>
+                                        <a href="#">item 3</a>
+                                        <div class="pangitain-story">
+                                            <div id="pangitain-title">Lorem Ipsum Dolor</div>
+                                            <div id="pangitain-detail">Lorem ipsum dolor<br />sit amet.</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">item 4</a>
+                                        <div class="pangitain-story">
+                                            <div id="pangitain-title">Lorem Ipsum Dolor</div>
+                                            <div id="pangitain-detail">Lorem ipsum dolor<br />sit amet.</div>
+                                        
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">item 5</a>
+                                        <div class="pangitain-story">
+                                            <div id="pangitain-title">Lorem Ipsum Dolor</div>
+                                            <div id="pangitain-detail">Lorem ipsum dolor<br />sit amet.</div>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>  
+                        </div>
+                             
+                    </div>                
+                </div>
+            </div>
+            <!--End content box-->
+            
+            <!--ads content-->
+            <div class="ads" style="float: left;">
+            	<div id="ads-detail" align="center">
+                	<a href="#"><img src="img/ads-angel.jpg" width="728" height="90" /></a>
+                </div>
+            </div>
+            <!--end ads content-->
+        
+        <!--End Main Wrapper-->
+        </div>
+    </div>
+    
+	<!---->
+    <div class="mainfooter">
+        <div class="footer">
+        	<div class="footerLogoIcons">
+                <div style="margin: 35px 70px; float: left;">
+                	<a href="#"><img src="img/iconlogo_abs.png" width="123" height="17" /></a>
+                </div>
+                <div style="margin: 10px 75px; float: left;">
+                	<a href="#"><img src="img/iconlogo_starrecords.png" width="54" height="62" /></a>
+                </div>
+                <div style="margin: 10px 75px; float: left;">
+                	<a href="#"><img src="img/iconlogo_absstore.png" width="58" height="62" /></a>
+                </div>
+                <div style="margin: 20px 70px; float: left;">
+                	<a href="#"><img src="img/iconlogo_tfc.png" width="139" height="46" /></a>
+                </div>
+            </div>
+            <div class="footerLinks">
+                <div id="links">
+                    <div style="margin: 0 5px; float: left;"><a href="#">Contact Us</a></div>
+                    <div style="margin: 0 5px; float: left;"><a href="#">Advertise With Us</a></div>
+                    <div style="margin: 0 5px; float: left;"><a href="#">Terms of Use</a></div>
+                    <div style="margin: 0 5px; float: left;"><a href="#">Privacy Statement</a></div>
+                </div>
+                <div id="copyright">
+                    <p>&copy; 2011 ABS-CBN Corporation. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

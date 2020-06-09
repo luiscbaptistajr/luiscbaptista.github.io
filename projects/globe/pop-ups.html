@@ -1,0 +1,653 @@
+<div class="pop-up-container">
+	
+	<div class="body-overlay"></div>
+
+	<!-- POP-UP FOR PAYMENTS -->
+	<div class="pop-up-cart">
+		<!-- START OF PAYMENT FORM VIEWS ARE SEPARATED BY DIVS-->
+		<form action="#" id="shopping-cart-form">
+			<!-- CART ITEMS VIEW -->
+			<div class="cart-view">
+				<a href="#" class="pop-up-close">close</a>
+				<div class="content">
+					<section> 
+						<div>
+							<h2><span class="icon"></span>Shopping Cart</h2>
+							<a href="#" class="empty" id="empty-cart">Empty Cart</a>
+							<a href="online-shop.php" class="continue" id="continue-close">Continue Shopping</a>
+							<hr>
+							<div class="list-item-header">
+								<span class="desc">Item Description</span>
+								<span class="quantity">Quantity</span>
+								<span class="price">Price</span>
+							</div>
+							<hr>
+							<ul class="item-list">
+								<li>
+									<div>
+										<div class="desc">
+											<img src="http://placehold.it/130x120" alt="item image"/>
+											<div class="item-details">
+												<span class="item-name">Samsung Galaxy S4 (White Frost) Prepaid Kit</span>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+												Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+											</div>
+										</div>
+										<div class="quantity">
+											<select>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
+										</div>
+										<div class="price">
+											<span class="price-each" data-each-price="12500">P 12,500 each</span>
+											<span class="price-total" data-total-price="12500">P 12,500</span>
+										</div>
+										<div class="button-holder">
+											<a href="#" class="change">Change Plan</a>
+											<a href="#" class="remove">Remove</a>
+										</div>
+									<div>
+								</li>
+								<li>
+									<div>
+										<div class="desc">
+											<img src="http://placehold.it/130x120" alt="item image"/>
+											<div class="item-details">
+												<span class="item-name">iPhone 10s</span>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+											</div>
+										</div>
+										<div class="quantity">
+											<select>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+											</select>
+										</div>
+										<div class="price">
+											<span class="price-each" data-each-price="12500">P 12,500 each</span>
+											<span class="price-total" data-total-price="12500">P 12,500</span>
+										</div>
+										<div class="button-holder">
+											<a href="#" class="change">Change Plan</a>
+											<a href="#" class="remove">Remove</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div>
+										<div class="desc">
+											<img src="http://placehold.it/130x120" alt="item image"/>
+											<div class="item-details">
+												<span class="item-name">iPhone 10s</span>
+												<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+											</div>
+										</div>
+										<div class="quantity">
+											<select>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+											</select>
+										</div>
+										<div class="price">
+											<span class="price-each" data-each-price="12500">P 12,500each</span>
+											<span class="price-total" data-total-price="12500">P 12,500</span>
+										</div>
+										<div class="button-holder">
+											<a href="#" class="change">Change Plan</a>
+											<a href="#" class="remove">Remove</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<hr>
+							<div class="total-container">
+								<label>Subtotal</label>
+								<span class="sub-total">P00.000.00</span>
+								<label>Sales Tax</label>
+								<span class="sales-tax">P00.000.00</span>
+								<span class="note">%12 VAT</span>
+								<label>Shipping</label>
+								<span class="shipping" data-shipping="0">Free</span>
+								<label class="total">Total</label>
+								<span class="total">P00.000.00</span>
+								<span class="note">Payable Now</span>
+							</div>
+						</div>
+					</section>
+				</div>
+				<a href="#" class="checkout" id="checkout">Checkout</a>
+			</div>
+			<!-- BILLING INFO VIEW -->
+			<div class="billing-info-view">
+				<a href="#" class="pop-up-close">close</a>
+				<div class="content">
+					<section> 
+						<div>
+							<h2><span class="icon"></span>Billing Information</h2>
+							<a href="#" class="back pop-up-back" data-prev="cart-view" data-view="billing-info-view">
+								Back
+							</a>
+							<hr>
+							<div class="item-header">
+								Personal
+							</div>
+							<hr>
+							<div class="three-column">
+								<fieldset>
+									<label>First Name</label>
+									<input type="text" class="required" data-field="First Name"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<div class="three-column margined">
+								<fieldset>
+									<label>Middle Name</label>
+									<input type="text" class="required" data-field="Middle Name"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<div class="three-column margined">
+								<fieldset>
+									<label>Last Name</label>
+									<input type="text" class="required" data-field="Last Name"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<hr>
+							<div class="item-header">
+								Address
+							</div>
+							<hr>
+							<div class="two-column address">
+								<fieldset>
+									<label>Building Name / Unit No. / House No.</label>
+									<input type="text" class="required unit" data-field="Building Name / Unit No. / House No."/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>Baranggay District</label>
+									<input type="text" class="required baranggay" data-field="Baranggay"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>Province</label>
+									<input type="text" class="required province" data-field="Province"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<input type="checkbox" id="use-billing"/>
+									<label>Ship to this address</label>
+								</fieldset>
+							</div>
+							<div class="two-column margined address">
+								<fieldset>
+									<label>Street Name / Road Name</label>
+									<input type="text" class="required street" data-field="Street Name / Road Name"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>City / Town</label>
+									<input type="text" class="required city" data-field="City / Town"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>Zip Code</label>
+									<input type="text" class="required zip" data-field="Zip Code"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<hr>
+							<div class="item-header">
+								Contact
+							</div>
+							<hr>
+							<div class="three-column">
+								<fieldset>
+									<label>Mobile Number</label>
+									<input type="text" class="required" data-field="Mobile Number"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<div class="three-column margined">
+								<fieldset>
+									<label>Telephone Number</label>
+									<input type="text" class="required" data-field="Telephone Number"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								
+							</div>
+							<div class="three-column margined">
+								<fieldset>
+									<label>Email Address</label>
+									<input type="email" class="required check-email" data-field="Email Address"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<hr>
+							<div class="item-header">
+								Are you an existing GLobe subscriber?
+							</div>
+							<hr>
+							<div class="three-column">
+								<fieldset>
+									<label>Globe Landline</label>
+									<input type="text" />
+									<span class="error">Error here</span>
+								</fieldset>
+								
+							</div>
+							<div class="three-column margined">
+								<fieldset>
+									<label>Number</label>
+									<input type="text" />
+									<span class="error">Error here</span>
+								</fieldset>
+							</div> 
+						</div>
+					</section>
+				</div>
+				<a href="#" class="clear">Clear</a>
+				<span class="note">* Required Fields</span>
+				<a href="#" class="next-step" id="billing-next" data-next="shipping-info-view">Next</a>
+			</div>
+			<!-- SHIPPING INFO VIEW -->
+			<div class="shipping-info-view">
+				<a href="#" class="pop-up-close">close</a>
+				<div class="content">
+					<section> 
+						<div>
+							<h2><span class="icon"></span>Shipping Information</h2>
+							<a href="#" class="back pop-up-back" data-prev="billing-info-view" data-view="shipping-info-view">Back</a>
+							<hr>
+								<div class="two-column">
+									<input type="checkbox" id="use-billing2"/>
+									<label>Use my billing address</label>
+								</div>
+							<hr>
+							<div class="item-header">
+								Address
+							</div>
+							<hr>
+							<div class="two-column address">
+								<fieldset>
+									<label>Building Name / Unit No. / House No.</label>
+									<input type="text" class="required unit" data-field="Building Name / Unit No. / House No."/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>Baranggay District</label>
+									<input type="text" class="required baranggay" data-field="Baranggay"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>Province</label>
+									<input type="text" class="required province" data-field="Province"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<div class="two-column margined address">
+								<fieldset>
+									<label>Street Name / Road Name</label>
+									<input type="text" class="required street" data-field="Street Name / Road Name"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>City / Town</label>
+									<input type="text" class="required city" data-field="City / Town"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								<fieldset>
+									<label>Zip Code</label>
+									<input type="text" class="required zip" data-field="Zip Code"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<hr>
+							<div class="item-header">
+								Contact
+							</div>
+							<hr>
+							<div class="three-column">
+								<fieldset>
+									<label>Mobile Number</label>
+									<input type="text" class="required" data-field="Mobile Number"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<div class="three-column margined">
+								<fieldset>
+									<label>Telephone Number</label>
+									<input type="text" class="required" data-field="Telephone Number"/>
+									<span class="error">Error here</span>
+								</fieldset>
+								
+							</div>
+							<div class="three-column margined">
+								<fieldset>
+									<label>Email Address</label>
+									<input type="email" class="required check-email" data-field="Email Address"/>
+									<span class="error">Error here</span>
+								</fieldset>
+							</div>
+							<hr>
+							<div class="item-header">
+								Delivery Policy
+							</div>
+							<hr>
+							<p class="policy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</section>
+				</div>
+				<a href="#" class="clear">Clear</a>
+				<span class="note">* Required Fields</span>
+				<a href="#" class="next-step" id="shipping-next">Next Step</a>
+			</div>
+			<!-- PAYMENT VIEW -->
+			<div class="payment-view">
+				<a href="#" class="pop-up-close">close</a>
+				<div class="content">
+					<section> 
+						<div>
+							<h2><span class="icon"></span>Payment</h2>
+							<a href="online-shop.php" class="cancel">Cancel Order</a>
+							<a href="online-shop.php" class="continue">Continue Shopping</a>
+							<div class="order-info">
+								<div class="order-header">
+									<label>Your Order</label>
+									<span class="value">25.000.00</span>
+									<span class="note">Payable Now</span>
+								</div>
+								<hr>
+									<div class="list-item-header">
+										<span class="desc">Item Name</span>
+										<span class="quantity">Quantity</span>
+										<span class="price">Price</span>
+									</div>
+								<hr>
+								<ul class="item-list">
+									<li>
+										<div>
+											<div class="desc">
+												<span class="item-name">Samsung Galaxy S4 (White Frost) Prepaid Kit</span>
+											</div>
+											<div class="quantity">
+												<span class="item-name">5</span>
+											</div>
+											<div class="price">
+												<span class="price-total">P 25,000</span>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div>
+											<div class="desc">
+												<span class="item-name">BlackBerry Z10 LTE (Black)</span>			
+											</div>
+											<div class="quantity">
+												<span class="item-name">5</span>
+											</div>
+											<div class="price">
+												<span class="price-total">P 25,000</span>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div>
+											<div class="desc">
+												<span class="item-name">BlackBerry Z10 LTE (Black)</span>			
+											</div>
+											<div class="quantity">
+												<span class="item-name">5</span>
+											</div>
+											<div class="price">
+												<span class="price-total">P 25,000</span>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<hr>
+								<div class="total-container">
+									<label>Subtotal</label>
+									<span>P00.000.00</span>
+									<label>Sales Tax</label>
+									<span>P00.000.00 </span>
+									<label>Shipping</label>
+									<span>P00.000.00</span>
+								</div>
+								<hr>
+								<a href="#" class="edit pop-up-back" data-prev="cart-view" data-view="payment-view">Edit Order</a> 
+								<label class="total">Total</label>
+								<span class="total">P00.000.00</span>
+								<hr>
+								<span class="label-heading">Shipping Address</span>
+								<span class="address name">John Cruz</span>
+								<span class="address one">#18 Lorem Ipsum Dolor Sit Amet</span>
+								<span class="address two">Lorem Ipsum</span>
+								<span class="address three">Manila</span>
+								<a href="#" class="edit-address pop-up-back" data-prev="shipping-info-view" data-view="payment-view">Edit Address</a> 
+							</div>
+							<div class="payment-info">
+								<h3>Choose Your Payment Method</h3>
+								<div>
+									<a href="#" class="card-icon visa selected" data-value="visa">Visa</a>
+									<a href="#" class="card-icon master-card" data-value="master card">Master Card</a>
+									<a href="#" class="card-icon visa-electron" data-value="visa-electron">Visa Electron</a>
+									
+									<fieldset>
+										<label>Cardholder’s Name</label>
+										<input type="text" class="required" data-field="Name or Cardholder’s Name"/>
+										<span class="error">Error here</span>
+									</fieldset>
+									<fieldset>
+										<label>Card Number</label>
+										<input type="text" class="required" data-field="Card Number"/>
+										<span class="error">Error here</span>
+									</fieldset>
+									<fieldset>
+										<label>Security Code</label>
+										<input type="text" class="required" data-field="Security Code"/>
+										<span class="error">Error here</span>
+									</fieldset>
+									<fieldset>
+										<label>Expiration</label>
+										<input type="text" class="required" data-field="Card Expiration"/>
+										<span class="error">Error here</span>
+									</fieldset>
+									<input type="submit" class="pay-now" value="" id="payment-submit"/>
+
+								</div>
+								<p class="terms-conditions">
+									Terms and Conditions<br/>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt placerat neque, non mollis odio eleifend eu. Pellentesque vel diam non dolor posuere congue in sit amet purus. Vivamus aliquam luctus elit, ut suscipit massa facilisis et. Aliquam erat volutpat. Nam ultricies semper semper.
+								</p> 
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- PAYMENT SUCCESS VIEW -->
+			<div class="payment-success-view">
+				<a href="#" class="pop-up-close">close</a>
+				<div class="content">
+					<section> 
+						<div>
+							<h2><span class="icon"></span>Payment Success</h2>
+							<div class="order-info">
+								<div class="order-header">
+									<span class="thank-you">Thank You!</span>
+									<label>Your Order</label>
+									<span class="address name">John Cruz</span>
+									<span class="card-num">VISA-1234-xxx-xxx</span>
+									<span class="address one">#18 Lorem Ipsum Dolor Sit Amet</span>
+									<span class="address two">Lorem Ipsum</span>
+									<span class="address three">Manila</span>
+									<span class="card-expiry">07/06/2013</span>
+								</div>
+								<hr>
+									<div class="list-item-header">
+										<span class="desc">Item Name</span>
+										<span class="quantity">Quantity</span>
+										<span class="price">Price</span>
+									</div>
+								<hr>
+								<ul class="item-list">
+									<li>
+										<div>
+											<div class="desc">
+												<span class="item-name">Samsung Galaxy S4 (White Frost) Prepaid Kit</span>	
+											</div>
+											<div class="quantity">
+												<span class="item-name">5</span>
+											</div>
+											<div class="price">
+												<span class="price-total">P 25,000</span>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<hr>
+								<div class="total-container">
+									<label>Subtotal</label>
+									<span>P00.000.00</span>
+									<label>Sales Tax</label>
+									<span>P00.000.00 </span>
+									<label>Shipping</label>
+									<span>P00.000.00</span>
+								</div>
+								<hr>
+								<label class="total width">Total</label>
+								<span class="total">P00.000.00</span>
+								<hr>
+							</div>
+							<div class="payment-info">
+								<div>
+									<input type="button" class="print" value="Print my invoice"/>
+								</div>
+								<p class="terms-conditions">
+									<span class="help">Need Help?</span>
+									For inquiries on your order and other billing matters, please contact.<br/>
+									</br>
+									VENDOR</br>
+									#000 Lorem Ipsum</br>
+									Lorem Ipsum Lorem Ipsum</br>
+									Lorem Ipsum</br>
+									Lorem Ipsum</br>
+									</br>
+									000-000-000</br>
+									</br>
+									vendor@vendor.com.ph
+								</p>
+								<div class="border-top">
+									<a href="#" class="go-to-shop">Go to Shop</a>
+								</div> 
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- PAYMENT ERROR VIEW -->
+			<div class="payment-error-view adjust-height">
+				<a href="#" class="pop-up-close">close</a>
+				<div class="content">
+					<section> 
+						<div>
+							<h2><span class="icon"></span>Payment Error</h2>
+							<div class="order-info height-400">
+								<div class="order-header">
+									<span class="thank-you">Ooppss!</span>
+									<p>Something went wrong while processing your payment please double check your payment details and try again.</p>
+
+									<a href="#" class="back">Back</a>
+								</div>
+							</div>
+							<div class="payment-info height-400">
+								<p class="terms-conditions">
+									<span class="help">Need Help?</span>
+									For inquiries on your order and other billing matters, please contact.<br/>
+									</br>
+									VENDOR</br>
+									#000 Lorem Ipsum</br>
+									Lorem Ipsum Lorem Ipsum</br>
+									Lorem Ipsum</br>
+									Lorem Ipsum</br>
+									</br>
+									000-000-000</br>
+									</br>
+									vendor@vendor.com.ph
+								</p>
+								<div class="border-top">
+									<a href="#" class="go-to-shop">Go to Shop</a>
+								</div> 
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</form>
+		<!-- END OF PAYMENT FORM -->
+	</div>
+
+	<!-- POP-UP FOR LOGIN -->
+
+	<div class="pop-up-login">
+		<a href="#" class="pop-up-close">close</a>
+		<div class="content">
+			<section>
+				<h2><span class="icon"></span>LogIn/Register for Online Account Access</h2>
+				<hr>
+				<div class="login-form-holder">
+					<h3>Login Here</h3>
+					<form action="index.php" id="login-form">
+						<fieldset>
+							<input type="email" placeholder="Enter email address" class="required check-email" data-field="email address"/>
+							<span class="error">error message</span>
+						</fieldset>
+						<fieldset>
+							<input type="password" placeholder="Enter your password" class="required" data-field="password"/>
+							<span class="error">error message</span>
+						</fieldset>
+						<a href="#" class="link">Forgot Password?</a>
+						<input type="submit" value="" id="submit-login"/>	
+					</form>
+				</div>
+				<div class="social-login">
+					<h3>or sign in with</h3>
+					<a href="#" class="social-login-icons facebook">Facebook</a>
+					<a href="#" class="social-login-icons google">Google</a>
+					<a href="#" class="social-login-icons yahoo">Yahoo</a>
+					<p>Not yet a member? <a href="#" class="link">Sign up here!</a></p>
+				</div>
+			</section>
+		</div>
+		<div class="content-bottom">
+			<div class="left">
+				<h3>No login required</h3>
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
+				<a href="#" class="login-icons bill">
+					<span class="icon">Pay Bill</span>
+					Pay for Bill
+				</a>
+				<a href="#" class="login-icons autopay">
+					<span class="icon autopay">Autopay</span>
+					Enroll in Autopay
+				</a>
+				<a href="#" class="login-icons paperless">
+					<span class="icon paperless">Paperless</span>
+					Sign up for </br> Paperless Billing
+				</a>
+			</div>
+			<div class="right">
+				<h3>Know About</h3>
+				<a href="#" class="checklist"><span class="check"></span>Subscribe to promos</a>
+				<a href="#" class="checklist"><span class="check"></span>View and pay your bill at home</a>
+				<a href="#" class="checklist"><span class="check"></span>Check your past and current charges</a>
+				<a href="#" class="checklist"><span class="check"></span>Manage you Globe account</a>
+			</div>
+		</div>
+	</div>
+
+</div>

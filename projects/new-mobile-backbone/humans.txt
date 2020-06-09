@@ -1,0 +1,46 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  
+  /* DEVELOPERS */
+  <your title> : Luis Baptista Jr
+  Site: 
+  Twitter: 
+  Location:
+
+  <your title> : <your name>
+  Site: 
+  Twitter: 
+  Location:
+
+  /* VISUAL INTERFACE DESIGNER */
+  <your title> : Luis Baptista Jr
+  Site: 
+  Twitter: 
+  Location:
+
+  /* STRATEGIST */
+  <your title> : Luis Baptista Jr
+  Site: 
+  Twitter: 
+  Location:
+
+  /* PROJECT MANAGER */
+  <your title> : Jon Danao
+  Site: 
+  Twitter: 
+  Location:
+
+  /* TEMPLATE GROUP */
+  Names (& URL) : HTML5 Boilerplate Developers (http://html5boilerplate.com/)
+
+
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, Progressive Internet Explorer
+
+
+

@@ -1,0 +1,139 @@
+body {
+	margin:0;padding:0;
+	font-family: $font-primary;
+}
+// HEADER
+header {
+	background: #5F5F5F;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	.logo {
+		text-align: center;
+	    border-bottom: 2px solid #ccc ;
+	    padding: 10px 0;
+	    margin: 0;
+	    
+	    a {
+	    	text-decoration: none;
+	    	color: #fff;
+	    	text-transform: uppercase;
+	    	font-weight: normal;
+	    	font-size: 18px;
+	    }
+	}
+}
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	background: #fff;
+	height: auto;
+	float: left;
+
+	.top-image {
+		background-image: url(../images/header.jpg);
+		position: relative;
+		height: 40vh;
+		text-indent: -9999px;
+		background-attachment: fixed;
+		background-position: top center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	// CONTENT
+	.content{
+		width: percentage(960px/1280px);
+		margin: 0 auto;
+		.gallery {
+			width: 100%;
+			height: auto;
+			float: left;
+		}
+		.category-title {
+			h2 {
+				text-align: left;
+				margin-left: percentage(20px/960px);
+				font-weight: normal;
+			    color: #333;
+			    font-size: 24px;
+			}
+		}
+		.itemInfo {
+		    display: -ms-flexbox;
+		    display: -webkit-flex;
+		    display: flex;
+		    -webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		    flex-direction: row;
+		    -webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		    -webkit-justify-content: flex-start;
+		    -ms-flex-pack: start;
+		    justify-content: flex-start;
+		    -webkit-align-content: flex-start;
+		    -ms-flex-line-pack: start;
+		    align-content: flex-start;
+		    -webkit-align-items: center;
+		    -ms-flex-align: center;
+		    align-items: center;
+			.display-phones {
+				float: left;
+				width:percentage(300px/960px);
+				margin: 10px auto;
+				padding: 10px 0;
+				border: 1px solid #ebebeb;
+
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+
+				h3, p {margin: 0;}
+				.item-name {
+					border-bottom: 1px solid #ccc;
+					padding-bottom: 10px;
+					text-align: center;
+					font-weight: normal;
+					font-size: 18px;
+					color: #666;
+				}
+				.item-description {
+					margin: 20px percentage(10px/300px);
+					color: #666;
+				}
+				.item-price {
+					display: block;
+					margin: 0 auto;
+					padding: 5px;
+					background: #ccc;
+					color: #000;
+					text-align: center;
+					border: 0;
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+
+}
+
+
+
+// FOOTER
+footer{
+	clear: both;
+	height: 50px;
+	padding-top: 20px;
+	p {
+		margin: 0;
+		padding: 10px 0;
+		text-align: center;
+		border-top: 1px solid #ccc;
+		font-size: 10px;
+	}
+}

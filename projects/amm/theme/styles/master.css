@@ -1,0 +1,557 @@
+@charset "UTF-8";
+@import url('normalizer.css');
+@import url('mediaqueries.css');
+@import url('type.css');
+
+/* ===============
+   BASIC LAYOUT
+   =============== */
+/* Header */
+header {
+   width: 948px;
+   height: auto;
+}
+
+.top-head {
+   width:765px;
+   height: auto;
+}
+
+
+.search {
+   width: 765px;
+   height:28px;
+   background:#b9e2d9;
+   margin-top: 0;
+   margin-bottom: 2px;
+   margin-right:0;
+   margin-left: 0;
+}
+
+form {
+   height: 28px;
+   line-height: 28px;
+}
+
+.search label {
+   color: #fff;
+   margin-left: 20px;
+   margin-right: 10px;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+
+.search #input-search {
+   border: 0;
+   background:none;
+   color: #fff;
+   width: 650px;
+}
+
+.logo {
+   background: url(../images/img-logo.jpg) no-repeat left center;
+   width:484px;
+   height:83px;
+   text-indent:-999em;
+   overflow: hidden;
+   float: left;
+}
+
+.logo a {
+   display: block;
+   height: 83px;
+}
+
+.headerContact {
+   width:216px;
+   height:31px;
+   float:left;
+   text-align: right;
+   margin-top:32px;
+   margin-bottom: 20px;
+}
+
+.socialNet {
+   width:64px;
+   height:28px;
+   float: right;
+   margin-top:32px;
+   margin-bottom:23px;
+}
+
+.socialFb {
+   background: url(../images/icon-fb.gif) no-repeat right center;
+   width:28px;
+   height:28px;
+   display:inline-block;
+}
+
+.socialTw {
+   background: url(../images/icon-tw.gif) no-repeat right center;
+   width:29px;
+   height:28px;
+   display:inline-block;
+}
+
+/* Left Sidebar */
+
+/* Right Sidebar */
+
+/* Footer */
+footer {
+   width: 765px;
+   height: auto;
+   background:#21665a;
+}
+
+.aamm {
+   width: 168px;
+   height: auto;
+   float: left;
+   margin-left: 24px;
+   margin-right: 23px;
+}
+
+.aamm p, .aamm a {
+   margin-left: 13px;
+   margin-right: 0;
+   margin-top:5px;
+   margin-bottom: 5px;
+   font-size:12px; 
+}
+
+.os {
+   width: 120px;
+   height: auto;
+   float: left;
+   margin-left:23px;
+   margin-right: 29px;
+}
+
+.of {
+   width:116px;
+   height: auto;
+   float: left;
+   margin-left: 34px;
+   margin-right: 18px;
+}
+
+.awu {
+   width:160px;
+   height: auto;
+   float: left;
+   margin-left: 17px;
+   margin-right: 29px;
+}
+
+.os ul li, .of ul li {
+   margin-left: 12px;
+   font-size:12px;
+}
+
+.topFooter {
+   color:#fff;
+   padding: 15px 0;
+}
+
+.topFooter div ul {
+   margin:5px 0;
+   padding:0;
+}
+
+.topFooter h3 {
+   font-size: 14px;
+}
+
+.topFooter a {
+   color:#fff;
+}
+
+.bottomFooter {
+   text-align: right;
+   margin-right:15px;
+   margin-left: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 20px 0;
+   color:#fff;
+}
+
+.bottomFooter a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.bottomFooter a:hover {
+   text-decoration: underline;
+}
+
+/* ===============
+   NAVIGATION
+   =============== */
+/* Primary */
+nav {
+   width: 725px;
+   height: 27px;
+   padding:0 20px;
+   margin-top:0;
+   margin-bottom: 5px;
+   margin-left: 0;
+   margin-right: 0;
+   background:#21665a;
+}
+
+/* Secondary */
+.manNav ul {
+   list-style: none;
+}
+
+.manNav ul li {
+   float:left;
+   height:27px;
+   line-height:27px;
+   padding-right:80px;
+   padding-left:0; 
+   padding-top:0;
+   padding-bottom:0;
+}
+
+.manNav ul li a {
+   color:#fff;
+   font-size:12px;
+   text-decoration: none;
+
+}
+
+.subNavMuseums {
+   width: 675px;
+   height: 27px;
+   padding-left:45px;
+   padding-right: 45px;
+   background: #6cb0a4;
+   display: none;
+}
+
+.subNavMuseums ul, .subNavResults ul, .subNavLoc ul {
+   margin:0;
+   padding:0;
+   list-style: none;
+}
+
+.subNavLoc {
+   width: 765px;
+   height: auto;
+   overflow: hidden;
+   background: #6cb0a4;
+   display: none;
+}
+
+.subNavLoc ul li {
+   
+   float: left;
+   width: 191px;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   line-height: 27px;
+   position: relative;
+}
+
+.subNavLoc ul li a {
+   padding-left: 47px;   
+   padding-right: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+.subNavMuseums ul li {
+   list-style: none;
+   float:left;
+   width: 25px;
+   height: 27px;
+   line-height: 27px;
+   text-align: center;
+}
+
+.subNavMuseums ul li a, .subNavLoc ul li a {
+   color: #fff;
+   text-decoration: none;
+   display: block;
+}
+
+.subNavMuseums ul li:hover, .subNavLoc ul li:hover, .subNavLoc ul .selected, .subNavMuseums ul .selected {
+   background: #40645e;
+   display: block;
+}
+
+.subNavResults {
+   width: 765px;
+   height: auto;
+   overflow: hidden;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 0;
+   padding-right: 0;
+   background: url(../images/bg-deepSubNav.png) repeat top left;
+   margin-top: 3px;
+   position: absolute;
+   display: none;
+   z-index:1;
+}
+
+.subNavResults ul li {
+   list-style: none;
+   float: left;
+   width: 228px;
+   position: relative;;
+   left: 47px;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   line-height: 27px;
+}
+
+.subNavResults ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.subNavResults ul li a:hover {
+   text-decoration: underline;
+}
+
+
+/* Breadcrumbs */
+
+/* Footer */
+
+
+
+/* ===============
+   CONTENT
+   =============== */
+/*.main {
+   width: 946px;
+   height: auto;
+}*/
+
+#wrapper {
+   margin: 0 auto;
+   width: 948px;
+   padding: 20px 0;
+}
+
+h1 {
+   margin:0;
+}
+
+.homeContent {
+   width:765px;
+   height:428px;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+   padding-bottom: 15px;
+}
+
+.homeContent div {
+   height: 428px;
+   width: 765px;
+   overflow: hidden;
+   padding-bottom:2px;
+}
+
+#slides {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   height: 428px;
+   width: 765px;
+   position: absolute;
+   overflow: hidden;
+}
+
+#slides li {
+   display: block;
+}
+
+.content {
+   width: 948px;
+   height: auto;
+}
+
+.topPanel {
+   background: #eaedea;
+   width: 765px;
+   height: auto;
+}
+
+.leftTopPanel {
+   width:231px;
+   height:auto;
+   float:left;
+   margin-left: 13px;
+   margin-right: 10px;
+   margin-top: 9px;
+   margin-bottom: 8px;
+}
+
+.leftTopPanel a {
+   white-space: pre;           /* CSS 2.0 */
+   white-space: pre-wrap;      /* CSS 2.1 */
+   white-space: pre-line;      /* CSS 3.0 */
+   white-space: -pre-wrap;     /* Opera 4-6 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   white-space: -moz-pre-wrap; /* Mozilla */
+   white-space: -hp-pre-wrap;  /* HP Printers */
+   word-wrap: break-word;      /* IE 5+ */
+   color: #000;
+   text-decoration: none;
+}
+
+.leftTopPanel a:hover {
+   text-decoration: underline;
+}
+
+.rightTopPanel {
+   width:510px;
+   height:394px;
+   float:left;
+}
+
+.rightTopPanel img {
+   padding-top:9px;
+   padding-bottom:8px;
+   padding-left:0;
+   padding-right:0;
+}
+
+.bottomPanel {
+   width: 765px;
+   height: auto;
+}
+
+.leftBottomPanel {
+   width:494px;
+   height:auto;
+   float:left;
+}
+
+.leftBottomPanel p {
+   width: 454px;
+   height:auto;
+   text-indent:30px;
+   padding-left:20px;
+   padding-right: 20px;
+   color: #cc6600;
+}
+
+.rightBottomPanel {
+   width:255px;
+   height:auto;
+   float:right;
+}
+
+.rightBottomPanel img {
+   margin-top: 17px;
+   margin-bottom: 7px;
+}
+
+.toClear {
+   clear:both;
+}
+
+.leftCol {
+   float:left;
+}
+
+.rightCol {
+   float: right;
+}
+
+.rightBanner {
+   width: 160px;
+   height: 600px;
+   background:#cc6600;
+}
+
+/******************** ABOUT US ********************/
+
+.aboutContent {
+   height: auto;
+   padding: 0 0 5px;
+   width: 765px;   
+   overflow: hidden;
+}
+
+.aboutContent .about-section {
+   width: 745px;
+   height: auto;
+   background: #eaedea;
+   margin-bottom:10px;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   padding: 10px;
+   overflow: hidden;
+}
+
+.aboutContent .about-section .section-left {
+   width: 361px;
+   height: auto;
+   float: left;
+   padding-right: 10px;
+}
+
+.aboutContent .about-section .section-left h2 {
+   margin: 0px;
+   padding: 0;
+}
+
+.aboutContent .about-section .section-left p {
+   color:#3e3e3e;   
+   font-size: 12px;
+   font-weight: normal;
+   line-height: 1.5;
+}
+
+
+
+.aboutContent .about-section .section-right {
+   width: 374px;
+   height: auto;
+   float: left;
+}
+
+
+/* =============================================================================
+   Non-semantic helper classes
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
+
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+

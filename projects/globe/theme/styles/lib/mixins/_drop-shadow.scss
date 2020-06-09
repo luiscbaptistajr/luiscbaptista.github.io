@@ -1,0 +1,41 @@
+//$darkGrey: #58595b;
+
+@mixin drop-shadow($inset: $inset-yes, $horizontal: 0px, $vertical: 5px, $blur: 5px, $spread: -4px, $color: $shadow){
+	-webkit-box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	   -moz-box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	        box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=#{$spread}, Direction=135, Color='#{$color}')";
+                filter: none;
+}
+
+@mixin drop-shadow-outset($horizontal: 0px, $vertical: 0px, $blur: 5px, $spread: 2px, $color: $shadow){
+	-webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+	   -moz-box-shadow: $horizontal $vertical $blur $spread $color;
+	        box-shadow: $horizontal $vertical $blur $spread $color;
+	        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=#{$spread}, Direction=0, Color='#{$color}')";
+                filter: none;
+}
+
+@mixin search-box-shadow($inset: $inset-yes, $horizontal: 4px, $vertical: 6px, $blur: 3px, $spread: -3px, $color: #999){
+	-webkit-box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	   -moz-box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	        box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=#{$spread}, Direction=135, Color='#{$color}')";
+                filter: none;
+}
+
+@mixin drop-shadow-float-nav($horizontal: 6px, $vertical: 6px, $blur: 10px, $spread: 0px, $color: $shadow){
+	-webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+	   -moz-box-shadow: $horizontal $vertical $blur $spread $color;
+	        box-shadow: $horizontal $vertical $blur $spread $color;
+	        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=#{$spread}, Direction=135, Color='#{$color}')";
+                filter: none;
+}
+
+@mixin email-blog-box-shadow($inset: $inset-yes, $horizontal: 4px, $vertical: 4px, $blur: 2px, $spread: -2px, $color: #000){
+	-webkit-box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	   -moz-box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	        box-shadow: $inset $horizontal $vertical $blur $spread $color;
+	        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=#{$spread}, Direction=135, Color='#{$color}')";
+                filter: none;
+}

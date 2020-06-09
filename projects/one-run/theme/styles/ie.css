@@ -1,0 +1,12 @@
+/* =============================================================================
+   IE Specific Styles
+   Loaded via <!--[IF IE]> conditional comment.
+   ========================================================================== */
+
+/* REGISTRATION PAGE */
+ #content .lightbox-wrapper .box .box-form form fieldset .field-wrapper .input-container input,
+ #content .lightbox-wrapper .box .box-form form fieldset .field-wrapper .select-container select,
+ #content .lightbox-wrapper .box .box-form form fieldset .field-wrapper .input-container {
+ 	height: 20px;
+ }
+

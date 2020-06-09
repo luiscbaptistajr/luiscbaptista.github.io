@@ -1,0 +1,95 @@
+.sprite {
+	display: block;
+	background: url(../images/sprite.png) no-repeat;
+	// background: url(http://sa.kapamilya.com/absnews/abscbnnews/media/abs-cbnnews/sprite_1.png) no-repeat;
+	width: 40px;
+	height: 40px;
+	&.bookmark {
+		background-position: 0 0;
+		&:hover {background-position: -40px 0;}
+	}
+	&.share-fb {
+		background-position: 0px -40px;
+
+		&:hover {background-position: -40px -40px;}
+	}
+	&.share-tw {
+		background-position: 0px -120px;
+
+		&:hover {background-position: -40px -120px;}
+	}
+	&.share-gplus {
+		background-position: 0px -240px;
+
+		&:hover {background-position: -40px -240px;}
+	}
+	&.share-ktalk {
+		display: none;
+		background-position: 0px -80px;
+
+		&:hover {background-position: -40px -80px;}
+	}
+	&.share-viber {
+		display: none;
+		background-position: 0px -160px;
+
+		&:hover {background-position: -40px -160px;}
+	}
+	&.share-wechat {
+		display: none;
+		background-position: 0px -200px;
+
+		&:hover {background-position: -40px -200px;}
+	}
+	&.share-in {
+		background-position: 0px -280px;
+
+		&:hover {background-position: -40px -280px;}
+	}
+	&.share-pin {
+		background-position: 0px -320px;
+
+		&:hover {background-position: -40px -320px;}
+	}
+}
+
+.slick-arrow {
+	display: block;
+	background: url(../images/sprite.png) no-repeat;
+	// background: url(http://sa.kapamilya.com/absnews/abscbnnews/media/abs-cbnnews/sprite_1.png) no-repeat;
+	width: 40px;
+	height: 40px; 
+	border: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    position: absolute;
+	&.slick-prev {
+		left: -15px;
+	    top: -50px;
+	    bottom: 0;
+	    margin: auto;
+	    z-index: 10;
+		background-position: 0px -360px;
+
+		&:hover {background-position: -40px -360px;}	
+	}
+
+	&.slick-next {
+		right: -15px;
+	    top: -50px;
+	    bottom: 0;
+	    margin: auto;
+	    z-index: 10;
+		background-position: 0px -440px;
+
+		&:hover {background-position: -40px -440px;}	
+	}
+
+	// &.arrow-dis-right {
+	// 	background-position: 0px -400px;
+	// }
+
+	// &.arrow-dis-left {
+	// 	background-position: -40px -400px;
+	// }
+}

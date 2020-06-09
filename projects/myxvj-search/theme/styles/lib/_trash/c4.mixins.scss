@@ -1,0 +1,33 @@
+
+
+// MODULAR SCALES TYPOGRAPHY // by Jason Weaver http://jasonweaver.name/blog/typography-and-modular-scales-with-sass/
+@mixin type($level: 1){
+
+	$golden-ratio: 1.25; // Major 3rd
+	$pow2: $ratio * $ratio;
+	$pow3: $ratio * $ratio * $ratio;
+
+
+}
+
+// ANCHOR LINKS
+@mixin anchor($normal: blue, $hover: green, $visited: violet, $active: red, $focus: orange){
+
+}
+
+// BOX SHADOW
+
+
+// TEXT SHADOW
+
+
+// ROUNDED CORNER
+
+
+// OPACITY
+
+
+// BACKGROUND GRADIENT
+
+
+// CLEARFIX

@@ -1,0 +1,13 @@
+@mixin rounded-corners($radius: 10px) {
+	-webkit-border-radius: $radius;
+	   -moz-border-radius: $radius;
+	 -khtml-border-radius: $radius;
+	        border-radius: $radius;
+}
+
+@mixin email-text-box($radius: 5px) {
+	-webkit-border-radius: $radius;
+	   -moz-border-radius: $radius;
+	 -khtml-border-radius: $radius;
+	        border-radius: $radius;
+}

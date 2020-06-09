@@ -1,0 +1,373 @@
+@import "config.scss";
+
+
+// GLOBAL
+body {
+	
+}
+
+// HEADINGS
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;	
+}
+
+h2 {
+	font-size: 30px;
+	font-family: $fontLight;
+
+	&.breadcrumbs-header {
+		font-size: 25px;
+		font-family: $fontLight;
+		font-weight: normal;
+		color: #fff;
+		margin: 0;
+		margin-left: 50px;
+	}
+
+	&.blog-magazine-title {
+		font-size: 25px;
+		font-family: $fontLight;
+		font-weight: normal;
+		color: #fff;
+		margin: 0;
+		margin-left: 0px;
+	}
+
+	&.white-text {
+		color: #fff;
+	}
+}
+
+h3 {
+	
+	&.white-title {
+		font-family: $fontLight;
+		font-size: 30px;
+		color: $title-white;
+		font-weight: normal;		
+	}
+
+	&.black-title {
+		font-family: $fontLight;
+		font-size: 30px;
+		color: $title-black;
+		font-weight: normal;
+	}
+
+	&.featured-title {
+		font-family: $fontBold;
+		font-size: 18px;
+		color: $title-black;
+		font-weight: normal;
+		text-align: center;
+		text-transform: uppercase;		
+	}
+
+}
+
+h4 {
+	&.blue-title {
+		font-family: $fontLight;
+		font-size: 20px;
+		color:$royalBlue;
+		font-weight: normal;
+	}
+
+	&.purple-title {
+		font-family: $fontLight;
+		font-size: 20px;
+		color: $darkViolet;
+		font-weight: normal;		
+	}
+
+	&.list-title {
+		font-family: $fontLight;
+		font-size: 24px;
+		font-weight: normal;
+	}
+
+	&.black-title {
+		font-family: $fontLight;
+		color: $title-black;
+		font-weight: normal;
+
+		&.sub-title {
+			font-size: 14px;
+		}
+	}
+}
+
+h5 {
+	font-size: 14px;
+	font-family: $fontHeavy;
+}
+
+h1, h2, h3, h4 {
+
+	&.white-title {
+		font-family: $fontLight;
+		font-size: 30px;
+		color: $title-white;
+		font-weight: normal;		
+	}
+
+	&.black-title {
+		font-family: $fontLight;
+		font-size: 30px;
+		color: $title-black;
+		font-weight: normal;
+	}	
+}
+
+
+// ANCHORS
+a {
+	text-decoration: none;
+
+	&.sub-font-menu {
+		font-size: 12px;
+		font-family: $fontBold;
+		font-weight: normal;
+		color: $darkGrey;
+	}
+
+	&.home-listBox-005 {
+		color: $dodgerBlue;
+		font-size: 14px;
+		font-family: $fontBold;
+		font-weight: normal;
+		text-decoration: none;
+
+		&:hover {
+			color: $silverBoxHover;
+		}
+	}
+
+	&.home-read-more {
+		color: $darkViolet;
+		font-size: 14px;
+		font-family: $fontBold;
+		font-weight: normal;
+		text-decoration: none;
+	}
+
+	&.home-read-more {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	&.bread-link {
+		color: #e4f2f7;
+		font-size: 18px;
+		font-family: $fontReg;
+		font-weight: normal;
+		padding: 0 10px;
+
+		&:hover {
+			color: #fff;
+		}
+
+	}
+
+	span {
+		text-align: center;
+
+		&.featured-list-title {
+			font-family: $fontBold;
+			font-size: 18px;
+			color: $title-black;
+			font-weight: normal;
+		}
+
+		&.videos-list-title {
+			font-family: $fontReg;
+			font-size: 18px;
+			color: $title-black;
+			font-weight: normal;
+
+		}
+
+		&.featured-list-subTitle {
+			font-family: $fontReg;
+			font-size: 16px;
+			color: #333;
+			font-weight: normal;
+		}
+
+		&.post-rewards-list-title {
+			font-family: $fontLight;
+			font-size: 18px;
+			color: #333;
+			font-weight: normal;
+		}
+
+	}
+
+	&.float-nav-style {
+		font-family: $fontLight;
+		font-size: 14px;
+		color: #fff;
+		font-weight: normal;
+	}
+
+	
+}
+
+a:link {
+	
+}
+
+a:hover {
+	text-decoration: none;
+	
+}
+
+a:active {
+	
+}
+
+a:visited {
+	
+}
+
+a:focus {
+	
+}
+
+// FORM
+input {
+	&.search-textbox {
+		font-size: 12px;
+	}
+
+	&.email-textbox {
+		color: $title-white;
+		font-size: 24px;
+		font-family: $fontLight;
+		font-weight: normal;
+	}
+}
+
+label {
+	
+}
+
+textarea {
+	
+}
+
+select {
+	
+}
+
+option {
+	
+}
+
+
+// TABLES
+table {
+	
+}
+
+td {
+	
+}
+
+
+// CONTENT
+p {
+
+	&.white-text {
+		color: $p-content-box-480-light;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: $fontReg;
+	}
+
+	&.black-text {
+		color: $p-content-box-480-dark;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: $fontReg;
+	}
+
+	&.purple-text {
+		color: $darkViolet;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: $fontReg;
+	}
+
+	&.sub-par {
+		color: #555;
+		font-size: 11px;
+		font-family: $fontReg;
+		font-weight: normal;
+	}
+
+
+	&.subscription-copy {
+		font-size: 18px;
+		font-family: $fontLight;
+		font-weight: normal;
+		color: $title-black;
+	}
+
+	
+}
+
+span {
+	
+}
+
+li {
+
+	&.home-leftBoxList-005 {
+		color: $dodgerBlue;
+		list-style-type: disc;
+	}
+
+	&.white-text {
+		color: $p-content-box-480-light;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: $fontReg;
+	}
+
+	&.black-text {
+		color: $p-content-box-480-dark;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: $fontReg;
+	}
+
+
+}
+
+dt {
+	
+}
+
+dd {
+	
+}
+
+
+// MISC CLASSES
+.class-1 {
+	
+}
+
+.class-2 {
+	
+}
+
+
